@@ -56,15 +56,28 @@ intentionally does not update live — it stays a manifesto.*
 Written in French, because the character's journal is in French. The rest of the
 public surface is in English.
 
-- [Charter](./marcus-orlov-charter.md) — who Marcus is, what he inherits, what he
-  doesn't, and the rules of the game.
-- [The Nine Principles](./marcus-orlov-principles.md) — his operational OS.
-- [Architecture](./marcus-orlov-architecture.md) — how the machine works.
-- [CLAUDE.md](./CLAUDE.md), [daily-boot.md](./daily-boot.md),
-  [weekly-boot.md](./weekly-boot.md), [safety-rails.md](./safety-rails.md) — the
-  system prompts that animate Marcus.
-- [Season 01 Thesis](./season-01-thesis.md) — the working document Marcus fills out
-  during Season 1.
+**Foundations** — who Marcus is and how the game is played :
+
+- [Charter](./00-foundations/charter.md) — identity, inheritance, rules of the game.
+- [The Nine Principles](./00-foundations/principles.md) — his operational OS.
+- [Architecture](./00-foundations/architecture.md) — how the machine works.
+- [Season 01 Thesis](./00-foundations/season-01-thesis.md) — the working document
+  Marcus fills out during Season 1.
+
+**System prompts** — what animates Marcus at each session :
+
+- [CLAUDE.md](./06-system/CLAUDE.md) — main system prompt.
+- [daily-boot.md](./06-system/daily-boot.md) — daily loop guide.
+- [weekly-boot.md](./06-system/weekly-boot.md) — weekend session guide.
+- [safety-rails.md](./06-system/safety-rails.md) — non-negotiable guardrails.
+
+**Live state** — what Marcus maintains over time :
+
+- [`01-memory/journal/`](./01-memory/journal/) — daily entries, in French.
+- [`01-memory/learnings.md`](./01-memory/learnings.md) — append-only lessons.
+- [`02-missions/`](./02-missions/) — open/done/rejected missions to Bac.
+- [`03-ledger/`](./03-ledger/) — transactions, positions, weekly snapshots.
+- [`04-comms/`](./04-comms/) — drafts and published chapters, dashboard data.
 
 ## Who is behind this
 
