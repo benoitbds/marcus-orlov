@@ -1,0 +1,83 @@
+#!/usr/bin/env bash
+# bac-session — Switch git identity to Bac for manual interventions
+#
+# Usage:
+#   ./bac-session                    # Switches identity, drops you in a shell
+#   ./bac-session commit "msg"       # Switches identity, stages all, commits, pushes
+#   ./bac-session publish            # Identity switch + reminder checklist for weekly publication
+#
+# Use this when YOU (Bac) intervene:
+#   - Fixing infrastructure
+#   - Publishing the weekly chapter on Substack
+#   - Correcting a typo Marcus made and can't fix cleanly
+#   - Onboarding new tooling, deploying the site, etc.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BAC_NAME="Benoit Baqué de Sariac"
+BAC_EMAIL="benoit.bds@gmail.com"
+
+color_blue()  { printf "\033[0;34m%s\033[0m\n" "$*"; }
+color_green() { printf "\033[0;32m%s\033[0m\n" "$*"; }
+color_dim()   { printf "\033[2m%s\033[0m\n" "$*"; }
+die()         { printf "\033[0;31m✗ %s\033[0m\n" "$*"; exit 1; }
+
+cd "$REPO_ROOT"
+git rev-parse --git-dir > /dev/null 2>&1 || die "Not a git repository"
+
+# Switch identity
+git config user.name  "$BAC_NAME"
+git config user.email "$BAC_EMAIL"
+color_blue "→ Git identity: $(git config user.name) <$(git config user.email)>"
+
+CMD="${1:-shell}"
+
+case "$CMD" in
+  shell|"")
+    color_dim "You are now operating as Bac. Commits will be signed accordingly."
+    color_dim "Exit this shell to restore parent shell's environment."
+    exec "${SHELL:-/bin/bash}"
+    ;;
+
+  commit)
+    MSG="${2:-}"
+    [[ -z "$MSG" ]] && die "Usage: ./bac-session commit \"your message\""
+    git add -A
+    if git diff --cached --quiet; then
+      color_dim "Nothing staged, nothing to commit."
+      exit 0
+    fi
+    git commit -m "$MSG"
+    git push
+    color_green "✓ Committed and pushed as Bac."
+    ;;
+
+  publish)
+    color_blue "━━━ Weekly publication checklist ━━━"
+    cat <<EOF
+
+  [ ] Substack draft reviewed and refined (the "regard de Bac" paragraph)
+  [ ] Title final and chosen (short, literary, non-clickbait)
+  [ ] Dashboard-data.json up to date
+  [ ] Latest ledger figures match the chapter
+  [ ] Chapter published on Substack
+  [ ] last_chapter_url updated in dashboard-data.json
+  [ ] Draft moved from 04-comms/substack-drafts/ to 04-comms/substack-published/
+
+Once done, commit with:
+  ./bac-session commit "publish: chapter N — <short title>"
+
+EOF
+    ;;
+
+  *)
+    cat <<EOF
+Usage:
+  ./bac-session                   Switch identity, open shell
+  ./bac-session commit "msg"      Switch identity, stage all, commit, push
+  ./bac-session publish           Show weekly publication checklist
+EOF
+    exit 1
+    ;;
+esac
