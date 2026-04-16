@@ -1,1 +1,10 @@
-{"cash_eur": 0, "positions": []}
+{
+  "as_of": "2026-04-16T12:00:00+02:00",
+  "cash_eur": 100.00,
+  "stock_eur": 0,
+  "receivables_eur": 0,
+  "investments_markets_eur": 0,
+  "investments_crypto_eur": 0,
+  "total_eur": 100.00,
+  "positions": []
+}
