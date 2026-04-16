@@ -18,6 +18,9 @@ Thumbs.db
 .claude/scratch/
 .claude/cache/
 
+# Claude Code native memory (we use 01-memory/ instead for public transparency)
+.claude/projects/
+
 # Node (for later, when site/ is populated)
 node_modules/
 .next/
