@@ -1,71 +1,88 @@
 #!/usr/bin/env bash
-# marcus-session — Launch a Claude Code session as Marcus Orlov
+# marcus-session — Launch a Claude Code session as Marcus Orlov, or commit as Marcus
 #
 # Usage:
-#   ./marcus-session daily     # Daily loop (Mon-Fri, ~20-30 min)
-#   ./marcus-session weekly    # Weekend session (Sat, ~2-3h)
+#   ./marcus-session daily            # Daily loop (Mon-Fri, ~20-30 min)
+#   ./marcus-session weekly           # Weekend session (Sat, ~2-3h)
+#   ./marcus-session commit "msg"     # Switch to Marcus identity, stage all, commit, push
 #
-# Behavior:
-#   - Switches git identity to Marcus Orlov for this session's commits
-#   - Verifies repo state is clean before starting
-#   - Boots Claude Code with the appropriate prompt loaded
-#   - On exit: stages all changes, commits with a canonical message, pushes
-#
-# Requirements:
-#   - claude CLI installed and authenticated
-#   - repo initialized with remote 'origin' set to SSH URL
-#   - 06-system/CLAUDE.md, daily-boot.md, weekly-boot.md present
+# v0.3 — 22 April 2026. Added signal handling so Ctrl-C during the Claude
+# Code session does NOT kill the script before the commit phase.
 
-set -euo pipefail
+set -u
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Config
-# ─────────────────────────────────────────────────────────────────────────────
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 MARCUS_NAME="Marcus Orlov"
-MARCUS_EMAIL="marcus.orlov@users.noreply.github.com"  # provisional until domain is purchased
-# If you don't own the domain yet, you can also use:
-# MARCUS_EMAIL="marcus.orlov@users.noreply.github.com"
+MARCUS_EMAIL="marcus.orlov@users.noreply.github.com"
 
 MODE="${1:-}"
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Helpers
-# ─────────────────────────────────────────────────────────────────────────────
 color_red()   { printf "\033[0;31m%s\033[0m\n" "$*"; }
 color_green() { printf "\033[0;32m%s\033[0m\n" "$*"; }
 color_blue()  { printf "\033[0;34m%s\033[0m\n" "$*"; }
+color_yellow(){ printf "\033[0;33m%s\033[0m\n" "$*"; }
 color_dim()   { printf "\033[2m%s\033[0m\n" "$*"; }
 
 die() { color_red "✗ $*"; exit 1; }
 
 usage() {
   cat <<EOF
-Usage: ./marcus-session <mode>
+Usage: ./marcus-session <mode> [args]
 
 Modes:
-  daily     Daily loop session (Mon-Fri, target 20-30 min)
-  weekly    Weekend session (Sat, target 2-3h)
+  daily                Daily loop session (Mon-Fri, target 20-30 min)
+  weekly               Weekend session (Sat, target 2-3h)
+  commit "message"     Switch identity to Marcus, stage all, commit, push
 
 Examples:
   ./marcus-session daily
   ./marcus-session weekly
+  ./marcus-session commit "daily: 2026-04-21 — finished Article 30 register"
 EOF
   exit 1
 }
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Validation
-# ─────────────────────────────────────────────────────────────────────────────
 [[ -z "$MODE" ]] && usage
-[[ "$MODE" != "daily" && "$MODE" != "weekly" ]] && die "Unknown mode: $MODE (expected 'daily' or 'weekly')"
+case "$MODE" in
+  daily|weekly|commit) ;;
+  *) die "Unknown mode: $MODE (expected 'daily', 'weekly', or 'commit')" ;;
+esac
 
 cd "$REPO_ROOT"
-
-# Is this a git repo?
 git rev-parse --git-dir > /dev/null 2>&1 || die "Not a git repository"
 
-# Is working tree clean?
+# ─────────────────────────────────────────────────────────────────────────────
+# Mode: commit (out-of-session Marcus commit)
+# ─────────────────────────────────────────────────────────────────────────────
+if [[ "$MODE" == "commit" ]]; then
+  MSG="${2:-}"
+  [[ -z "$MSG" ]] && die "Usage: ./marcus-session commit \"your message\""
+
+  color_blue "→ Switching git identity to Marcus Orlov"
+  git config user.name  "$MARCUS_NAME"
+  git config user.email "$MARCUS_EMAIL"
+  color_dim  "  $(git config user.name) <$(git config user.email)>"
+
+  git add -A
+  if git diff --cached --quiet; then
+    color_dim "Nothing staged, nothing to commit."
+    exit 0
+  fi
+
+  color_blue "→ Committing as $(git config user.name)"
+  git commit -m "$MSG" || die "Commit failed"
+
+  color_blue "→ Pushing to origin"
+  git push || die "Push failed"
+
+  color_green "✓ Committed and pushed as Marcus."
+  exit 0
+fi
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Mode: daily or weekly (session launch)
+# ─────────────────────────────────────────────────────────────────────────────
+
 if ! git diff-index --quiet HEAD -- 2>/dev/null; then
   color_red "✗ Working tree has uncommitted changes."
   git status --short
@@ -73,25 +90,17 @@ if ! git diff-index --quiet HEAD -- 2>/dev/null; then
   die "Please commit or stash before starting a Marcus session."
 fi
 
-# Are system prompts present?
 [[ -f "06-system/CLAUDE.md" ]]       || die "Missing 06-system/CLAUDE.md"
 [[ -f "06-system/daily-boot.md" ]]   || die "Missing 06-system/daily-boot.md"
 [[ -f "06-system/weekly-boot.md" ]]  || die "Missing 06-system/weekly-boot.md"
 
-# Is claude CLI installed?
 command -v claude >/dev/null 2>&1 || die "claude CLI not found. Install Claude Code first."
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Configure git identity for Marcus (local to this repo)
-# ─────────────────────────────────────────────────────────────────────────────
 color_blue "→ Switching git identity to Marcus Orlov"
 git config user.name  "$MARCUS_NAME"
 git config user.email "$MARCUS_EMAIL"
 color_dim  "  $(git config user.name) <$(git config user.email)>"
 
-# ─────────────────────────────────────────────────────────────────────────────
-# Prepare boot context
-# ─────────────────────────────────────────────────────────────────────────────
 BOOT_FILE="06-system/daily-boot.md"
 SESSION_LABEL="daily"
 [[ "$MODE" == "weekly" ]] && { BOOT_FILE="06-system/weekly-boot.md"; SESSION_LABEL="weekly"; }
@@ -104,7 +113,6 @@ color_blue "→ Date: $TODAY"
 color_blue "→ Boot prompt: $BOOT_FILE"
 echo ""
 
-# Opening kick message piped into Claude Code as the first user message
 KICK_MSG=$(cat <<EOF
 Session type: $SESSION_LABEL
 Today: $TODAY ($NOW_ISO)
@@ -132,41 +140,65 @@ EOF
 )
 
 # ─────────────────────────────────────────────────────────────────────────────
-# Launch Claude Code
+# Signal handling: DO NOT let Ctrl-C kill the script.
+# If Ctrl-C reaches bash during 'claude', we trap it and continue to the
+# commit phase so that Marcus's work is never lost.
 # ─────────────────────────────────────────────────────────────────────────────
+INTERRUPTED=0
+trap 'INTERRUPTED=1' INT TERM
+
 color_green "━━━ Marcus is waking up ━━━"
 echo ""
 
-# Claude Code in interactive mode. Marcus operates inside the repo.
-# The kick message is the first user prompt.
-claude "$KICK_MSG" || {
-  color_red "✗ Claude Code session exited with an error."
-  die "Not committing. Please inspect the state manually."
-}
+# Run claude; do NOT exit the script if claude returns non-zero.
+set +e
+claude "$KICK_MSG"
+CLAUDE_EXIT=$?
+set -e
 
 echo ""
+if [[ $INTERRUPTED -eq 1 ]]; then
+  color_yellow "⚠ Signal received during session (Ctrl-C). Continuing to commit phase."
+elif [[ $CLAUDE_EXIT -ne 0 ]]; then
+  color_yellow "⚠ Claude Code exited with code $CLAUDE_EXIT. Continuing to commit phase anyway."
+fi
 color_green "━━━ Session ended ━━━"
+
+# From here on, we IGNORE further SIGINT — the commit must not be left half-done.
+trap '' INT TERM
 
 # ─────────────────────────────────────────────────────────────────────────────
 # Stage, commit, push
 # ─────────────────────────────────────────────────────────────────────────────
-if git diff --cached --quiet && git diff --quiet; then
+
+# Any changes at all?
+has_changes=0
+if ! git diff --cached --quiet; then has_changes=1; fi
+if ! git diff --quiet; then has_changes=1; fi
+if [[ -n "$(git ls-files --others --exclude-standard)" ]]; then has_changes=1; fi
+
+if [[ $has_changes -eq 0 ]]; then
   color_dim "No changes to commit. Session had no effect on the repo."
+  color_dim "(If this is unexpected, check whether Marcus committed during the session:"
+  color_dim " git log -1 --stat)"
   exit 0
 fi
 
 git add -A
 
-# Auto-generate a commit message based on mode + date
-# Marcus should have emitted a SESSION_END line but we don't parse it here
-# (too fragile); instead we use a canonical message and let the content speak.
 COMMIT_MSG="$SESSION_LABEL: $TODAY — Marcus session"
 
 color_blue "→ Committing as $(git config user.name)"
-git commit -m "$COMMIT_MSG" || die "Commit failed"
+if ! git commit -m "$COMMIT_MSG"; then
+  color_yellow "⚠ Commit failed (possibly nothing staged after all). Inspect manually."
+  exit 1
+fi
 
 color_blue "→ Pushing to origin"
-git push || die "Push failed"
+if ! git push; then
+  color_yellow "⚠ Push failed. Commit is local. Run 'git push' manually or use './marcus-session commit' next time."
+  exit 1
+fi
 
 color_green "✓ Session committed and pushed."
 color_dim  "  Inspect: git log -1 --stat"
