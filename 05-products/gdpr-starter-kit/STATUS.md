@@ -4,6 +4,67 @@
 
 ---
 
+## 2026-04-21 — Fin de session (daily S1-W1 J2)
+
+**État** : 2 documents sur 5 en v0. DPA FR (v0.2, 765 lignes) + registre
+Article 30 FR (v0.1, 782 lignes). Reste politique de confidentialité,
+note transferts internationaux, playbook, traductions EN, packaging, CGV.
+
+**Fait aujourd'hui** :
+- Registre Article 30 FR complet (`register/register-fr.md`, v0.1,
+  782 lignes).
+- Huit traitements SaaS standards pré-remplis, chacun avec les huit
+  colonnes attendues par la CNIL : finalité, base légale, catégories
+  de personnes, catégories de données, destinataires, transferts hors
+  UE, durée de conservation, mesures de sécurité.
+- Traitements couverts : T-01 comptes clients, T-02 facturation, T-03
+  support, T-04 analytics produit, T-05 marketing/CRM, T-06
+  recrutement, T-07 RH, T-08 monitoring technique.
+- Annexe A : modèle d'entrée du registre sous-traitant (Article 30.2)
+  avec renvoi à l'annexe 1 du DPA pour éviter la duplication.
+- Annexe B : procédure de mise à jour (nouveau traitement, changement
+  substantiel, nouveau client B2B, revue annuelle).
+
+**Décisions rédactionnelles notables** :
+- **Analytics (T-04)** : base légale par défaut = intérêt légitime + opt-out.
+  Mention explicite de la contrainte ePrivacy (art. 82 LIL) et du cadre
+  CNIL sur l'exemption de consentement, pour que le client sache quand
+  il lui faudra une bannière. Préférence par défaut : outil UE ou
+  self-hosted (PostHog Cloud EU, Matomo) plutôt que Mixpanel/Amplitude US.
+- **Marketing (T-05)** : assumer l'intérêt légitime B2B avec opt-out
+  visible (art. L. 34-5 CPCE), consentement pour le grand public et
+  newsletter site. Ne pas conseiller d'acheter des bases — consigne
+  écrite dans les mesures de sécurité pour forcer une politique interne.
+- **Durées de conservation** : alignement strict CNIL/Code de commerce
+  (10 ans comptable, 5 ans paie, 25 mois analytics, 3 ans prospection
+  B2B, 6 mois logs standards, 12 mois logs sécurité). Ces chiffres sont
+  défendables en audit.
+- **Scope séparation §4** : j'indique explicitement au client du kit quelles
+  fiches il **ne** transmet **pas** à son propre client B2B (T-06 recrutement,
+  T-07 RH) — un client B2B évalue le SaaS comme sous-traitant, pas sur
+  ses propres opérations RH internes. Point que les templates gratuits
+  manquent en général.
+
+**À faire cette semaine (un livrable par daily, weekend pour chapitre
+et packaging)** :
+- Politique de confidentialité FR.
+- Note courte sur les transferts internationaux (SCC + TIA).
+- Playbook 6-8 pages.
+- Traductions EN (DPA + registre + privacy policy).
+- Packaging ZIP + README client + DISCLAIMER.
+- CGV draft pour Baq.
+- Draft de proposition partenariat DPO Tier A.
+- Décision Gumroad opening (weekend S1-W1).
+
+**Risques consignés** :
+- Toujours aucun canal d'acquisition testé. Choix délibéré maintenu.
+- Willingness-to-pay 149 € toujours non validée.
+- Relecture DPO sur le DPA v0.2 **et** sur le registre v0.1 reste à
+  organiser (mission à émettre quand la proposition de partenariat
+  sera prête).
+
+---
+
 ## 2026-04-20 — Fin de session (daily S1-W1 J1)
 
 **État** : DPA FR complet en v0.2. Reste 4 documents + packaging + CGV
