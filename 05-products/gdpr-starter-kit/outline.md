@@ -134,18 +134,24 @@ Livrable : `playbook/playbook.md` + export PDF.
 
 ## Work breakdown — v0 production (2026-04-17 → 2026-04-18)
 
-**Friday 2026-04-17 (today) :**
+**POC window (2026-04-17) — archivé :**
 - [x] Outline + product spec.
-- [ ] DPA FR — sections 1 à 4 (v0 draft).
+- [x] DPA FR — sections 1 à 4 (v0 draft).
 - [ ] Registre FR — traitements 1 à 4 pré-remplis.
 
-**Saturday 2026-04-18 (weekend session) :**
-- [ ] DPA FR — sections 5 à 11 + annexes.
-- [ ] Registre FR — traitements 5 à 8.
+**Season 1 officiel — Semaine 1 (2026-04-20 → 2026-04-25) :**
+
+Lundi 2026-04-20 :
+- [x] DPA FR — sections 5 à 11 + annexes 1 à 4 (v0.2 complet).
+
+À planifier sur le reste de la semaine (un livrable par daily, weekend
+consacré au chapitre 1 Substack + packaging) :
+- [ ] Registre Article 30 FR — traitements 1 à 8.
 - [ ] Politique de confidentialité FR.
-- [ ] Note SCC courte.
-- [ ] Playbook 6-8 pages.
-- [ ] Traductions EN (DPA + privacy policy) — v0 acceptée, polished plus tard.
+- [ ] Note courte sur les transferts internationaux (SCC + TIA).
+- [ ] Playbook 6-8 pages — négociation, clauses à défendre, signaux d'alerte.
+- [ ] Traductions EN (DPA + privacy policy) — v0, à polir plus tard.
 - [ ] Packaging ZIP + README client + DISCLAIMER.
-- [ ] CGV draft soumis à Bac.
+- [ ] CGV draft soumis à Baq pour validation.
+- [ ] Draft de proposition aux DPO Tier A (mission à ressortir).
 - [ ] Décision Gumroad opening : go / hold.
