@@ -148,9 +148,13 @@ Mardi 2026-04-21 :
 - [x] Registre Article 30 FR — 8 traitements SaaS pré-remplis, annexe A
       (modèle Art. 30.2), annexe B (procédure de mise à jour).
 
+Mercredi 2026-04-22 :
+- [x] Politique de confidentialité FR — 11 sections, 397 lignes,
+      base légale et durées alignées registre, section cookies/CNIL
+      avec exemption d'analytics tracée.
+
 À planifier sur le reste de la semaine (un livrable par daily, weekend
 consacré au chapitre 1 Substack + packaging) :
-- [ ] Politique de confidentialité FR.
 - [ ] Note courte sur les transferts internationaux (SCC + TIA).
 - [ ] Playbook 6-8 pages — négociation, clauses à défendre, signaux d'alerte.
 - [ ] Traductions EN (DPA + privacy policy) — v0, à polir plus tard.
