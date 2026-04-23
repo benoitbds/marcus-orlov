@@ -153,9 +153,15 @@ Mercredi 2026-04-22 :
       base légale et durées alignées registre, section cookies/CNIL
       avec exemption d'analytics tracée.
 
+Jeudi 2026-04-23 :
+- [x] Note sur les transferts internationaux FR — 379 lignes.
+      Cadre Chapitre V, quatre modules SCC (2021/914), décisions
+      d'adéquation (UK, DPF, etc.), six fiches sous-traitants
+      (AWS, GCP, OpenAI, Stripe, Intercom, Sentry), modèle TIA
+      en sept points.
+
 À planifier sur le reste de la semaine (un livrable par daily, weekend
 consacré au chapitre 1 Substack + packaging) :
-- [ ] Note courte sur les transferts internationaux (SCC + TIA).
 - [ ] Playbook 6-8 pages — négociation, clauses à défendre, signaux d'alerte.
 - [ ] Traductions EN (DPA + privacy policy) — v0, à polir plus tard.
 - [ ] Packaging ZIP + README client + DISCLAIMER.

@@ -4,6 +4,73 @@
 
 ---
 
+## 2026-04-23 — Fin de session (daily S1-W1 J4)
+
+**État** : 4 documents sur 5 en v0. DPA FR (v0.2, 765 lignes) + registre
+Article 30 FR (v0.1, 782 lignes) + politique de confidentialité FR
+(v0.1, 397 lignes) + note transferts internationaux FR (v0.1, 379 lignes).
+Total kit FR : 2323 lignes. Reste playbook, traductions EN, packaging,
+CGV, draft DPO, décision Gumroad.
+
+**Fait aujourd'hui** :
+- Note sur les transferts internationaux FR complète
+  (`transfers-note/transfers-note.md`, v0.1, 379 lignes).
+- Structure en 8 sections : objet, cadre Chapitre V en une page,
+  les quatre modules SCC (2021/914) avec tableau d'applicabilité,
+  décisions d'adéquation en vigueur (UK, DPF, liste consolidée),
+  six fiches sous-traitants typiques (AWS, GCP, OpenAI, Stripe,
+  Intercom, Sentry), modèle TIA en sept points, périmètres exclus,
+  références.
+- Références nominatives : RGPD art. 44-50, décision 2021/914,
+  décision 2023/1795 (DPF), arrêt *Schrems II* C-311/18,
+  recommandations EDPB 01/2020, lignes directrices 05/2021.
+
+**Décisions rédactionnelles notables** :
+- **DPF jamais seul.** La pratique du kit est SCC signées
+  systématiquement, DPF mentionné comme base principale uniquement si
+  le prestataire est *activement certifié* et que la certification
+  couvre le flux. Si le prestataire sort du DPF, les SCC déjà
+  signées assurent la continuité — règle écrite §4.
+- **Module 3 identifié comme structurant**, pas seulement Module 2.
+  Le SaaS vendu ici est le sous-traitant du client B2B ; ses flux
+  vers ses propres sous-traitants ultérieurs hors EEE engagent
+  Module 3, pas Module 2. Écrit explicitement §3.
+- **TIA en sept questions**, cible une à deux pages par fiche. Pas
+  une DPIA. Le niveau de détail est aligné sur une SaaS B2B sans
+  catégories sensibles — signaux d'alerte pour sortir de ce scope
+  listés §7 (art. 9, art. 10, Chine/Russie, santé/scoring/défense).
+- **Dates des décisions d'adéquation** consolidées au 2026-04-23 avec
+  note explicite à l'éditeur : vérifier au moment du transfert,
+  dater la fiche quand on répond au client B2B. Un document non
+  daté perd sa force en six mois.
+- **Six sous-traitants traités**, liste des non-traités explicite
+  (Cloudflare, Auth0, Twilio, SendGrid, Zendesk, HubSpot, etc.) —
+  le playbook fournira une procédure générique d'évaluation en 6
+  étapes applicable à tout nouveau prestataire.
+
+**À faire cette semaine (un livrable par daily, weekend pour chapitre
+et packaging)** :
+- Playbook 6-8 pages (négociation, clauses à défendre, signaux
+  d'alerte, procédure d'évaluation d'un nouveau sous-traitant).
+- Traductions EN (DPA + registre + privacy + transfers note).
+- Packaging ZIP + README client + DISCLAIMER.
+- CGV draft pour Baq.
+- Draft de proposition partenariat DPO Tier A.
+- Décision Gumroad opening (weekend S1-W1).
+
+**Risques consignés** :
+- Toujours aucun canal d'acquisition testé. Choix délibéré maintenu.
+- Willingness-to-pay 149 € toujours non validée.
+- Relecture DPO reste à organiser sur les quatre documents FR (DPA
+  v0.2, registre v0.1, privacy v0.1, transfers v0.1) — mission à
+  émettre quand la proposition de partenariat sera prête.
+- Les fiches sous-traitants §5 sont datables — si le kit n'est pas
+  vendu dans les 6 mois, elles nécessiteront une revue ciblée avant
+  publication. Vérification à intégrer à la procédure de mise à
+  jour (annexe B du registre).
+
+---
+
 ## 2026-04-22 — Fin de session (daily S1-W1 J3)
 
 **État** : 3 documents sur 5 en v0. DPA FR (v0.2, 765 lignes) + registre
