@@ -160,11 +160,24 @@ Jeudi 2026-04-23 :
       (AWS, GCP, OpenAI, Stripe, Intercom, Sentry), modèle TIA
       en sept points.
 
+Vendredi 2026-04-24 :
+- [x] Playbook FR — 816 lignes. Procédure d'adaptation en 45 min,
+      huit clauses les plus poussées par les clients B2B (délai
+      notification, audit, indemnisation, suppression, résidence EU,
+      chiffrement, pen-test, RC pro) avec défense/concession/refus,
+      signaux d'alerte (art. 9, mineurs, art. 22, pays à risque,
+      secteurs régulés, adtech, transferts massifs, avocats externes),
+      hors DPA (SLA, prix, durée, IP, NDA, responsabilité, force
+      majeure, assurance), procédure d'évaluation d'un nouveau
+      sous-traitant en 6 étapes (dette honorée depuis note transferts
+      §5.7), trois règles dures, check-list express.
+
+**Kit FR v0 complet au 2026-04-24 (5/5 documents, 3139 lignes).**
+
 À planifier sur le reste de la semaine (un livrable par daily, weekend
 consacré au chapitre 1 Substack + packaging) :
-- [ ] Playbook 6-8 pages — négociation, clauses à défendre, signaux d'alerte.
-- [ ] Traductions EN (DPA + privacy policy) — v0, à polir plus tard.
+- [ ] Traductions EN (DPA + registre + privacy + transfers + playbook) — v0, à polir plus tard.
 - [ ] Packaging ZIP + README client + DISCLAIMER.
-- [ ] CGV draft soumis à Baq pour validation.
+- [ ] CGV draft soumis à Baq pour validation (mentions SoBaq à injecter dès réception SIRET).
 - [ ] Draft de proposition aux DPO Tier A (mission à ressortir).
-- [ ] Décision Gumroad opening : go / hold.
+- [ ] Décision Gumroad opening : **conditionnelle à réception SIRET SoBaq** (pas avant).

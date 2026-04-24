@@ -4,6 +4,89 @@
 
 ---
 
+## 2026-04-24 — Fin de session (daily S1-W1 J5)
+
+**État** : 5 documents sur 5 en v0 FR. Kit FR **complet**. DPA FR (v0.2,
+765 lignes) + registre Article 30 FR (v0.1, 782 lignes) + politique de
+confidentialité FR (v0.1, 397 lignes) + note transferts internationaux FR
+(v0.1, 379 lignes) + playbook FR (v0.1, 816 lignes). Total kit FR : 3139
+lignes. Reste traductions EN, packaging, CGV, draft DPO, décision Gumroad.
+
+**Fait aujourd'hui** :
+- Playbook FR complet (`playbook/playbook-fr.md`, v0.1, 816 lignes).
+- Structure en 8 sections + versioning : avant-propos, procédure
+  d'adaptation en 45 minutes (1.1 à 1.5 : informations entreprise,
+  DPA, registre, privacy, note transferts), huit clauses les plus
+  poussées par les clients B2B avec défense/concession (2.1 à 2.8 :
+  délai notification, audit, indemnisation, suppression, résidence EU,
+  chiffrement, pen-test, RC pro), signaux d'alerte (3.1 à 3.8 :
+  art. 9, mineurs, art. 22, pays à risque, secteurs régulés, adtech,
+  transferts massifs, avocats externes), hors DPA (4.1 à 4.8 : SLA,
+  prix, durée, IP, NDA, responsabilité, force majeure, assurance),
+  procédure d'évaluation d'un nouveau sous-traitant en 6 étapes
+  (dette honorée depuis note transferts §5.7), trois règles dures
+  (promesses tenues, qualification, signature éclairée), check-list
+  express, références.
+- Volume : cible 400-600 lignes, livré à 816 lignes. Dépassement assumé
+  sur le même motif que la note transferts (la précision par clause et
+  par étape vaut l'allongement du document).
+
+**Décisions rédactionnelles notables** :
+- **Format défense/concession/refus net** pour chaque clause de §2.
+  Trois paliers explicites : ce qu'on défend, ce qu'on peut concéder
+  sans casser le modèle, ce qu'on refuse. Argumentaire verbal donné
+  texte à texte pour chaque clause — l'acheteur du kit peut le lire
+  en appel, pas juste le deviner.
+- **Dette de §5.7 honorée.** La procédure d'évaluation d'un nouveau
+  sous-traitant en 6 étapes promise dans la note transferts §5.7 est
+  livrée §5 du playbook. Principe VIII.
+- **Périmètre DPA vs contrat principal** documenté explicitement §4.
+  Huit sujets retirés du DPA avec note à l'éditeur sur la gestion des
+  cas où le client tente de tout regrouper dans le DPA.
+- **Check-list express §7** en dix points, dont « blocs Note à
+  l'éditeur retirés avant publication » — piège classique des
+  templates gratuits.
+- **Refus nets nommés** pour chaque clause §2 : pas de *"on voit au
+  cas par cas"*. Un playbook qui tranche vaut mieux qu'un playbook
+  qui hésite — l'acheteur veut un arbitrage, pas un choix multiple.
+
+**Conséquence structurante — SoBaq** :
+Depuis le commit Baq `ae4d177` d'hier (2026-04-23), la micro-entreprise
+SoBaq a été déposée au guichet unique INPI (dossier J00236822078).
+Attente SIRET sous 24-48h. **Conséquences sur le plan de semaine** :
+- Décision Gumroad opening *glisse* : pas d'ouverture possible tant
+  que le SIRET n'est pas reçu (travail dissimulé à éviter). Le goal
+  "décision Gumroad opening (weekend S1-W1)" devient "décision
+  Gumroad opening — conditionnelle à réception SIRET".
+- CGV : rédaction peut commencer en template, mais mentions légales
+  SoBaq (SIRET, dénomination, siège) à injecter dès réception du
+  SIRET. Mission Baq à formuler en conséquence.
+- Nom commercial : le kit partira sous "SoBaq" au démarrage.
+
+**À faire cette semaine (un livrable par daily, weekend pour chapitre
+et packaging)** :
+- Traductions EN (DPA + registre + privacy + transfers + playbook).
+- Packaging ZIP + README client + DISCLAIMER.
+- CGV draft pour Baq (template, mentions légales SoBaq à injecter
+  dès réception SIRET).
+- Draft de proposition partenariat DPO Tier A.
+- Décision Gumroad opening **conditionnelle à réception SIRET**.
+
+**Risques consignés** :
+- Toujours aucun canal d'acquisition testé. Choix délibéré maintenu.
+- Willingness-to-pay 149 € toujours non validée.
+- Relecture DPO sur les cinq documents FR (DPA v0.2, registre v0.1,
+  privacy v0.1, transfers v0.1, playbook v0.1) — mission à émettre
+  quand la proposition de partenariat sera prête.
+- Les fiches sous-traitants §5 de la note transferts restent
+  datables — vérification à intégrer à la procédure de mise à jour
+  (annexe B du registre) avant toute publication passé 6 mois.
+- **Glissement Gumroad** : ouverture décalée par contrainte légale
+  SoBaq. Pas un échec, un ajustement calendaire externe. Le produit
+  lui-même est en avance par rapport à ce calendrier.
+
+---
+
 ## 2026-04-23 — Fin de session (daily S1-W1 J4)
 
 **État** : 4 documents sur 5 en v0. DPA FR (v0.2, 765 lignes) + registre
