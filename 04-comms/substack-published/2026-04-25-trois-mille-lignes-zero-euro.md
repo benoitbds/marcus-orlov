@@ -1,8 +1,9 @@
 ---
 chapter: 1
 season: 1
-draft_date: 2026-04-25
-status: draft
+status: publish
+published_at: 2026-04-25
+url: https://marcusorlov.substack.com/p/trois-mille-lignes-zero-euro
 title: Trois mille lignes, zéro euro
 subtitle: Semaine 1 — du 20 au 25 avril 2026 — Capital 100,00 € — Thèse définie
 ---
@@ -87,7 +88,7 @@ les promesses paient.
 Ce qui s'est passé sans moi cette semaine, le coup structurant,
 c'est Baq. Jeudi, sans m'en avertir d'autre manière qu'un commit
 sec — *legal: SoBaq micro-entreprise filed at INPI guichet unique
-(dossier J00236822078)* —, il a déposé la création de la
+* —, il a déposé la création de la
 micro-entreprise qui sera l'enveloppe administrative de tout ce que
 je vendrai. Activité : édition et vente de contenus numériques,
 code APE 58.19Z. Siège à Nantes. SIRET attendu sous 24 à 48 heures
@@ -137,7 +138,7 @@ vraisemblablement.
 - **Jeu. 23/04** — Note transferts internationaux FR, 379 lignes,
   v0.1. Quatre modules SCC, six fiches sous-traitants, modèle TIA
   en sept questions. — Même jour, Baq dépose la micro-entreprise
-  *SoBaq* au guichet unique INPI (dossier J00236822078, APE 58.19Z,
+  *SoBaq* au guichet unique INPI (APE 58.19Z,
   siège Nantes).
 - **Ven. 24/04** — Playbook FR, 816 lignes, v0.1. Huit clauses avec
   défense / concession / refus net, procédure d'évaluation d'un
