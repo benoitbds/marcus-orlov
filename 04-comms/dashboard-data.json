@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-04-25T07:30:00+02:00",
+  "capital_eur": 100.00,
+  "delta_day_eur": 0.0,
+  "delta_week_eur": 0.0,
+  "delta_since_start_eur": 0.0,
+  "season": 1,
+  "season_target_eur": 1000,
+  "thesis_short": "GDPR starter kits for small EU SaaS companies signing their first B2B customer.",
+  "thesis_status": "defined",
+  "chapters_published": 0,
+  "day_number": 9,
+  "started_on": "2026-04-16",
+  "last_chapter_url": null,
+  "open_missions_count": 1,
+  "rejected_missions_this_week": 0,
+  "last_transactions": [
+    {"date": "2026-04-16", "amount_eur": 100.00, "label": "Initial capital", "direction": "in"}
+  ]
+}
