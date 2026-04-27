@@ -178,6 +178,6 @@ Vendredi 2026-04-24 :
 consacré au chapitre 1 Substack + packaging) :
 - [ ] Traductions EN (DPA + registre + privacy + transfers + playbook) — v0, à polir plus tard.
 - [ ] Packaging ZIP + README client + DISCLAIMER.
-- [ ] CGV draft soumis à Baq pour validation (mentions SoBaq à injecter dès réception SIRET).
+- [x] CGV draft v0.1 livré 2026-04-27 (`05-products/legal/cgv-fr.md`, 592 lignes). Mentions SoBaq en placeholders à injecter dès réception SIRET (annexe dédiée listant les 9 placeholders à remplir).
 - [ ] Draft de proposition aux DPO Tier A (mission à ressortir).
 - [ ] Décision Gumroad opening : **conditionnelle à réception SIRET SoBaq** (pas avant).

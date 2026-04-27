@@ -4,6 +4,136 @@
 
 ---
 
+## 2026-04-27 — Fin de session (daily S1-W2 J1)
+
+**État** : kit FR v0 inchangé (5/5 documents, 3139 lignes). Premier
+livrable hors-kit : **CGV SoBaq v0.1**, livré côté
+`05-products/legal/cgv-fr.md` (592 lignes).
+
+**Fait aujourd'hui** :
+- CGV SoBaq v0.1 rédigées en 18 articles + annexe placeholders +
+  versioning. Couvrent : identification vendeur (LCEN art. 6-III),
+  champ d'application B2C / B2B, caractéristiques essentielles
+  (L. 221-5 1°), commande, prix TTC franchise base TVA (art. 293 B
+  CGI), paiement, livraison numérique immédiate, **droit de
+  rétractation et exception L. 221-28 13°** (perte du droit avec
+  consentement express + reconnaissance), garanties légales
+  (L. 217-3 et s. C. conso, 1641 et s. C. civ., L. 224-25-1 et s.
+  C. conso pour contenus numériques), propriété intellectuelle
+  avec licence d'usage (Pro = entité, Conso = personnel),
+  **limitation de responsabilité avec non-conseil juridique
+  (loi n° 71-1130)** et plafond pro = montant TTC payé, données
+  personnelles renvoyant à la politique de confidentialité,
+  service client, médiation L. 612-1 et plateforme RLL UE, loi
+  applicable + tribunal compétent (Rome I art. 6 pour Conso),
+  modifications, divers.
+- Mentions légales SoBaq laissées en placeholders explicites
+  `[À COMPLÉTER — ...]` et listées dans l'annexe pour traitement
+  groupé dès réception SIRET. Aucune mise en ligne avant
+  remplissage.
+- Update `dashboard-data.json` : `chapters_published: 0 → 1`,
+  `last_chapter_url: https://marcusorlov.substack.com/p/trois-mille-lignes-zero-euro`,
+  `day_number: 9 → 11`, `open_missions_count: 1 → 0`,
+  `as_of` 2026-04-27T08:15.
+
+**Décisions rédactionnelles notables** :
+- **Exception L. 221-28 13° posée comme blocante au checkout.** Sans
+  cochage de la case « je demande la fourniture immédiate du contenu
+  numérique et reconnais expressément perdre mon droit de
+  rétractation », la commande Conso ne peut être finalisée. C'est la
+  seule manière propre de vendre du téléchargeable instantané sans
+  rester ouvert à 14 jours de rétractation post-livraison. Article
+  9.2 explicite la double condition cumulative.
+- **Non-conseil juridique mis en disposition contractuelle, pas en
+  bandeau marketing.** Article 12.1-2 cite la loi n° 71-1130 et
+  liste explicitement les six situations qui déclenchent la
+  consultation d'un avocat ou DPO certifié (art. 9, art. 10,
+  art. 22, mineurs, secteurs régulés, transferts massifs vers
+  juridictions à risque). Le DISCLAIMER joint au kit fera corps avec
+  ces CGV. Risque réglementaire identifié dans
+  `season-01-thesis.md` directement adressé.
+- **Licence d'usage différenciée Pro / Conso.** Article 11.2 : Pro =
+  usage interne entité, nombre d'utilisateurs illimité, adaptation
+  et signature avec clients/partenaires autorisées. Conso = usage
+  personnel non commercial. Revente, redistribution, intégration
+  dans une offre groupée commerciale = interdites sans accord écrit.
+  Contrefaçon L. 122-4 / L. 335-2 CPI nommée explicitement.
+- **Plafond de responsabilité Pro = montant payé ; pas de plafond
+  Conso si contraire au droit de la consommation.** Article 12.4.
+  Sans cette dissymétrie, soit on plafonne illégalement vis-à-vis
+  d'un Conso, soit on s'expose sans limite vis-à-vis d'un Pro.
+- **Tribunal compétent dissymétrique.** Article 16.2 : Conso a
+  l'option (lieu de résidence ou siège du Vendeur, art. 42 / 46
+  CPC) ; Pro relève du tribunal de commerce du siège du Vendeur
+  sauf disposition impérative. Cohérent avec Rome I art. 6.
+- **Aucun arrondi promotionnel sur les délais.** L. 216-1 (livraison
+  ≤ 30 jours), 5 jours ouvrés pour accusé de réception, 15 jours
+  ouvrés pour réponse à réclamation, 1 an minimum pour mises à
+  jour des contenus numériques (L. 224-25-12). Délais documentés
+  pour mémoire opérationnelle.
+
+**Conséquences pour la suite** :
+- CGV ne peuvent être publiées avant que les neuf placeholders de
+  l'annexe soient remplis. Mission Baq déclenchée dès réception du
+  SIRET (sortie INSEE) et de l'inscription RCS Nantes.
+- Médiateur de la consommation à choisir parmi la liste tenue par la
+  CECMC. Adhésion annuelle à arbitrer (coût ordre de grandeur 50-200
+  €/an selon médiateur). À cadrer avec Baq sous le rail §8.2 dès que
+  le SIRET arrive et avant ouverture Gumroad.
+- Politique de confidentialité « SoBaq » à hébergerquelque part
+  d'accessible (article 13 renvoie). Décision d'hébergement
+  (page Substack ? page statique GitHub ? sous-domaine ?) à
+  trancher en weekend session S1-W2.
+- Aucune mission émise aujourd'hui. Le calendrier d'outreach DPO Tier
+  A glisse à mardi-mercredi le temps de réarchitecturer la
+  proposition autour d'un modèle commission + co-distribution
+  (rev-share aligné §8.2 — 30 € de cap launch cost incompatible avec
+  un upfront 300-500 € hypothétique de samedi).
+
+**Pré-launch checklist CGV — à trancher avant remplissage des
+placeholders et mise en ligne** :
+
+- [ ] **Gumroad seller-of-record status à clarifier.** Selon le
+      régime *Merchant of Record* de Gumroad, c'est **Gumroad** qui
+      peut être le vendeur contractuel pour la TVA et la
+      contrepartie de l'Acheteur, SoBaq devenant un créateur payé en
+      royalties. Si MOR activé : la mention *« TVA non applicable,
+      art. 293 B du CGI »* et l'identification de SoBaq comme
+      *« Vendeur »* à l'article 1 sont matériellement fausses, et
+      les CGV doivent être réécrites pour identifier Gumroad comme
+      vendeur et SoBaq comme bénéficiaire. Si MOR désactivé (Stripe
+      direct via Gumroad pour SoBaq) : le draft v0.1 est correct.
+      **À résoudre avant remplissage placeholders, pas après.**
+- [ ] **Médiateur de la consommation — adhésion à reclasser §8.2.**
+      Coût ordre de grandeur 50-200 €/an. Le rail launch cost
+      Produits numériques (≤ 30 % du capital, soit ≤ 30 € à
+      capital 100 €) est **incompatible** avec une adhésion
+      médiateur même au plancher 50 €/an. Trois options à arbitrer
+      avec Baq : (a) reclasser cette dépense hors *« coût de
+      lancement »* (frais de structure récurrent SoBaq, pas
+      lancement produit) ; (b) attendre que le capital soit
+      remonté au-delà du seuil rendant la dépense conforme ; (c)
+      vendre exclusivement Pro à Pro pendant la S1 (médiateur Conso
+      non requis pour B2B pur — mais Gumroad ne filtre pas la
+      qualité Pro/Conso à la commande, donc cette voie demande
+      mécanique de vérification, voir option Pro-only ci-dessous).
+      **À trancher avant ouverture Gumroad.**
+- [ ] **Option Pro-only à évaluer si médiateur écarté.** Forcer la
+      qualité Pro à la commande (champ SIRET obligatoire ou case à
+      cocher *« j'agis en qualité de Professionnel »*) supprime
+      l'obligation médiateur (réservée au Consommateur). Trade-off :
+      perte d'accès au marché Conso (mineur, vu le positionnement) ;
+      gain : suppression d'une dépense récurrente non-cadrée. Si
+      retenu, refonte des articles 3, 9, 15 et 16.2 pour pivoter en
+      CGV B2B-only.
+- [ ] **Hébergement de la politique de confidentialité.** Article 13
+      des CGV renvoie à une URL externe. Trois options ouvertes :
+      page Substack dédiée, page statique GitHub Pages,
+      sous-domaine `legal.sobaq.fr` (à arbitrer en weekend session
+      S1-W2 — décision tied à la stratégie domaine SoBaq).
+
+---
+
 ## 2026-04-24 — Fin de session (daily S1-W1 J5)
 
 **État** : 5 documents sur 5 en v0 FR. Kit FR **complet**. DPA FR (v0.2,
