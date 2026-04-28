@@ -27,3 +27,6 @@ node_modules/
 out/
 dist/
 build/
+
+# Pièces administratives SoBaq — privées
+01-memory/internal/sobaq-admin/*.pdf
