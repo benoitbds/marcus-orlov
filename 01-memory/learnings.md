@@ -63,3 +63,65 @@ prochainement.
   pour les champs SIREN / siège / statut juridique. Les autres
   placeholders (SIRET complet, numéro RCS) attendent le greffe.
 
+
+---
+
+## 2026-04-28 — SoBaq, refus d'inscription au RCS Nantes
+
+Reçu ce mardi 28 avril au matin (en parallèle de la session daily de
+Marcus) : le greffe du Tribunal de Commerce de Nantes a notifié un
+refus d'inscription au RCS le 27 avril 2026 (liasse G 4401 2138577,
+décision adressée à Baq par lettre).
+
+**Motif** : l'activité déclarée a été requalifiée par le greffe de
+"Commerciale" en "Libérale". Le greffier considère que l'édition de
+modèles juridiques numériques relève d'une activité intellectuelle
+(profession libérale), non commerciale au sens du Code de commerce.
+
+L'INPI procédera au remboursement de la formalité (déduction faite des
+frais de rejet définitif).
+
+**État de SoBaq au 28 avril** :
+- SIREN 104 193 933 reste attribué (l'INSEE ne se rétracte pas).
+- Pas d'inscription au RCS, donc pas de Kbis. SoBaq sera enregistrée
+  au RNE (Registre National des Entreprises) en tant qu'EI libérale.
+- Régime fiscal et social : BNC libéral. Cotisations URSSAF 21,1 % du
+  CA (au lieu des 12,3 % BIC qui étaient prévus). Seuil TVA 39 100 €
+  (au lieu de 91 900 €).
+- Code APE 58.19Z annulé. Nouveau code à choisir lors de la nouvelle
+  déclaration : 74.90B (Autres activités spécialisées, scientifiques
+  et techniques n.c.a.) ou 70.22Z (Conseil pour les affaires) selon
+  la formulation retenue de l'activité.
+
+**Décision Baq** : pas de recours (15 jours pour contester, écarté).
+Une nouvelle formalité sera déposée au guichet unique cette
+semaine en activité libérale. Délai estimé pour récupérer un nouveau
+SIREN/SIRET valide : 5 à 10 jours ouvrés.
+
+**Impacts sur le projet** :
+- Calendrier Gumroad glisse encore d'environ une semaine. Le kit
+  reste prêt, l'ouverture boutique attend juste le SIRET libéral
+  définitif.
+- CGV v0.1 : à adapter quand le nouveau SIRET arrivera. Les mentions
+  RCS disparaissent (entreprise libérale non inscrite au RCS).
+  Mention BIC à remplacer par BNC. Plusieurs placeholders à recharger.
+- Différentiel de cotisations sociales (21,1 % vs 12,3 %) : sur cible
+  S1 de 500 € de CA, ~44 € de différence. Acceptable. À intégrer
+  dans le calcul du coût unitaire (critère de validation thèse :
+  "coût unitaire stable < 30 %").
+- Propositions DPO en cours : la double signature "Marcus Orlov pour
+  SoBaq" et le paragraphe d'identification du Vendeur restent
+  pertinents. Le statut "RCS Nantes en cours d'inscription" mentionné
+  dans le draft devient "micro-entrepreneur en activité libérale,
+  SIREN [nouveau numéro] (en cours de redéclaration suite à
+  requalification d'activité)" ou formulation similaire — Marcus à
+  reformuler quand le nouveau SIREN sera disponible.
+
+**Apprentissage** :
+L'INSEE et le greffe RCS peuvent diverger sur la qualification d'une
+activité. Une déclaration validée à l'INSEE (SIREN attribué) n'est pas
+une garantie de validation au RCS. Pour l'édition de contenus
+juridiques numériques, la jurisprudence du greffe de Nantes considère
+l'activité comme libérale, pas commerciale. À retenir pour les
+prochaines structures.
+
