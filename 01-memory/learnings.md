@@ -125,3 +125,40 @@ juridiques numériques, la jurisprudence du greffe de Nantes considère
 l'activité comme libérale, pas commerciale. À retenir pour les
 prochaines structures.
 
+
+---
+
+## 2026-04-28 — SoBaq v2, redéclaration libérale soumise
+
+Nouvelle formalité déposée au guichet unique INPI cet après-midi
+(numéro de liasse J00237943824, dossier "SoBaq" — la précédente
+J00236822078 reste invalidée par le greffe RCS Nantes).
+
+**Configuration de la nouvelle déclaration** :
+- Nature de l'activité : libérale (BNC), pas commerciale.
+- Catégorisation INPI : Activités de services > Activités spécialisées,
+  scientifiques et techniques > Activités spécialisées, scientifiques
+  et techniques diverses.
+- Code APE attendu : probablement 74.90B (Autres activités spécialisées,
+  scientifiques et techniques n.c.a.).
+- Régime fiscal : BNC. Cotisations sociales URSSAF 21,1 % du CA. Seuil
+  TVA franchise base 39 100 €.
+- **Organismes compétents** : INSEE, URSSAF — pas de greffe TCO de Nantes
+  cette fois. Pas de risque de re-requalification par un greffier.
+- Description d'activité reformulée pour assumer la nature libérale et
+  exclure explicitement la prestation de conseil personnalisé (anticipe
+  loi 71-1130).
+- Date de début : 29/04/2026.
+
+**Délai estimé pour SIREN/SIRET définitif** : 24-48h ouvrés (validation
+INSEE), puis affiliation URSSAF automatique dans la semaine.
+
+**Conséquences immédiates pour le projet** :
+- SIREN 104 193 933 (de la précédente formalité) sera radié et n'a pas
+  vocation à apparaître dans les CGV ou la proposition DPO.
+- Les CGV v0.1 doivent être adaptées au nouveau régime (BNC, pas RCS,
+  ajustement TVA franchise).
+- La proposition Laetitia Schmuck rédigée hier devra mentionner le
+  nouveau statut "micro-entrepreneur en activité libérale, SIREN
+  [nouveau]" — Marcus à mettre à jour quand le numéro arrive.
+
