@@ -194,3 +194,48 @@ les artefacts SoBaq.
 - Le SIRET définitif (probablement `104378815 00010` ou similaire)
   attendu sous 48h après validation URSSAF.
 
+
+---
+
+## 2026-04-29 — SoBaq, nouveau SIREN attribué + channel email opérationnel
+
+**SIREN définitif** : **104 378 815**.
+
+État formalité INPI au 29 avril après-midi : *"En attente de
+validation par URSSAF Bretagne"*. Pas d'étape RCS. Pas de greffe TCO.
+Le SIRET (14 chiffres) sera émis automatiquement après validation
+URSSAF, généralement sous 48h supplémentaires.
+
+**SIREN précédent (104 193 933) abandonné** : la formalité
+J00236822078 ayant été refusée par le greffe RCS Nantes, ce premier
+numéro sera radié par l'INSEE et n'a pas vocation à apparaître dans
+les artefacts SoBaq.
+
+**Channel email SoBaq opérationnel** : adresse `contact@sobaq.fr`
+créée chez OVH (MX Plan classique gratuit, débloqué via activation
+de l'hébergement web gratuit). Redirection configurée vers
+`benoit.bds@gmail.com` pour la réception. Configuration *"send as"*
+côté Gmail à finaliser pour permettre l'envoi authentique depuis
+`contact@sobaq.fr`.
+
+**Channel LinkedIn SoBaq** : pas encore créé. Décision à arbitrer
+par Marcus dans son prochain daily — quelle posture d'identité
+LinkedIn pour SoBaq (page entité minimale comme identifiant admin /
+page entité avec voix éditoriale active / autre). À cadrer avant
+émission de la mission Baq de création.
+
+**Conséquences immédiates pour les artefacts** :
+- CGV v0.1 : adaptation libérale possible (BNC, retrait RCS,
+  remplissage du SIREN 104 378 815 ; SIRET à compléter dès
+  validation URSSAF).
+- Variant 1 Laetitia Schmuck : à mettre à jour, paragraphe
+  d'identification SoBaq aligné sur formulation libérale + nouveau
+  SIREN.
+- Variant 2 Sandrine Thyrault : à mettre à jour, substitution
+  "SIREN [en cours d'attribution]" par "SIREN 104 378 815".
+- Variant 3 Céline Petit : à rédiger directement avec la
+  formulation finale.
+
+**Verrous outreach DPO levés** : email channel (✓), nouveau SIREN
+(✓). Reste : LinkedIn entité, % affiliation, packaging du kit.
+
