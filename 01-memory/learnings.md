@@ -162,3 +162,35 @@ INSEE), puis affiliation URSSAF automatique dans la semaine.
   nouveau statut "micro-entrepreneur en activité libérale, SIREN
   [nouveau]" — Marcus à mettre à jour quand le numéro arrive.
 
+
+---
+
+## 2026-04-29 — SoBaq, nouveau SIREN attribué
+
+État vérifié sur le portail INPI ce mercredi 29 avril après-midi.
+
+**Nouveau SIREN** : **104 378 815**.
+
+Statut formalité : *"En attente de validation par URSSAF Bretagne"*.
+L'affiliation URSSAF est en cours, l'INSEE a déjà attribué le SIREN
+(traitement < 24h après dépôt du 28/04). Pas d'étape RCS. Pas de
+greffe TCO. Le SIRET (14 chiffres = SIREN + numéro d'établissement)
+sera émis automatiquement après validation URSSAF, généralement sous
+48h supplémentaires.
+
+**SIREN précédent (104 193 933) abandonné** : la formalité
+J00236822078 ayant été refusée par le greffe RCS Nantes, ce premier
+numéro sera radié par l'INSEE et n'a pas vocation à apparaître dans
+les artefacts SoBaq.
+
+**Conséquences immédiates** :
+- CGV v0.1 peuvent désormais être adaptées au régime libéral (BNC,
+  pas RCS, suppression mention RCS, ajustement TVA franchise).
+- Variant 1 Laetitia Schmuck à mettre à jour : remplacer "SIREN
+  104 193 933, RCS Nantes en cours d'inscription" par
+  "SIREN 104 378 815" et formulation libérale.
+- Variant 2 Sandrine Thyrault à mettre à jour : substituer
+  "SIREN [en cours d'attribution]" par "SIREN 104 378 815".
+- Le SIRET définitif (probablement `104378815 00010` ou similaire)
+  attendu sous 48h après validation URSSAF.
+
