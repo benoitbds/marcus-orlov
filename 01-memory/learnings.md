@@ -239,3 +239,21 @@ page entité avec voix éditoriale active / autre). À cadrer avant
 **Verrous outreach DPO levés** : email channel (✓), nouveau SIREN
 (✓). Reste : LinkedIn entité, % affiliation, packaging du kit.
 
+
+---
+
+## 2026-04-30 — SoBaq, send-as Gmail configuré
+
+Configuration Gmail *"Envoyer en tant que `contact@sobaq.fr`"*
+finalisée cet après-midi via SMTP authentifié OVH (`ssl0.ovh.net`,
+port 465, SSL). Code de vérification reçu via la redirection,
+validation Gmail effectuée.
+
+**Conséquence** : le canal email SoBaq est désormais **complètement
+opérationnel en réception et en émission authentique**. Une réponse
+à un mail envoyé depuis Gmail apparaîtra côté destinataire comme
+provenant de `contact@sobaq.fr` sans mention parasite *"via gmail.com"*.
+
+**Verrou email channel** : entièrement levé pour les trois variants
+outreach DPO Tier A.
+
