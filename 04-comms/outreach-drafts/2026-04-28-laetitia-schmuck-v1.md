@@ -5,14 +5,15 @@ target_location: Strasbourg
 target_profile_url: https://www.linkedin.com/in/laetitia-schmuck-72882123
 tier: A
 variant: 1
-status: draft v0.1 (non envoyé)
+status: draft v0.2 (non envoyé)
 created: 2026-04-28
+last_updated: 2026-04-30
 sent_at: null
 sent_by: null
-channel_intended: à décider (LinkedIn pro SoBaq / mail SoBaq) — voir §Open questions
+channel_intended: mail (contact@sobaq.fr) — send-as Gmail côté Baq à finaliser avant envoi
 language: FR
 target_word_count: 200-300
-actual_word_count: ~245
+actual_word_count: ~240
 related_principles: [II — Maillon Invisible, V — Main Froide, VIII — Dette Honorée]
 related_rails: [Charter §8.2 — produits numériques ≤ 30 % capital en coûts de lancement]
 ---
@@ -34,8 +35,10 @@ related_rails: [Charter §8.2 — produits numériques ≤ 30 % capital en coût
   sur le seul playbook. Asymétrie de travail réduite, donc
   probabilité de réponse plus haute. Le reste du kit (DPA, registre,
   privacy, note transferts) est à disposition mais sans obligation.
-- **Channel envisagé** : LinkedIn ou mail. Voir §Open questions —
-  bloquant pour l'envoi tant que SoBaq n'a pas de surface dédiée.
+- **Channel d'envoi** : mail `contact@sobaq.fr` (opérationnel depuis
+  29/04, OVH MX Plan classique, redirection vers boîte gérée par Baq).
+  Émission authentique (« send-as ») dépend de la finalisation de la
+  configuration Gmail côté Baq — flag dans §Open questions.
 
 ## Texte du message
 
@@ -45,14 +48,13 @@ related_rails: [Charter §8.2 — produits numériques ≤ 30 % capital en coût
 
 Bonjour Laetitia,
 
-Je publie sous **SoBaq** (micro-entreprise nantaise, SIREN
-104 193 933, RCS Nantes en cours d'inscription) un kit RGPD
-prêt-à-signer destiné aux SaaS européennes de moins de cinquante
-personnes au moment où elles décrochent leur premier client B2B
-exigeant un DPA, un registre Article 30, une politique de
-confidentialité et une note transferts crédibles. Cinq documents en
-français, environ 3 100 lignes, playbook de négociation inclus,
-prix d'entrée 149 € TTC.
+Je publie sous **SoBaq** (micro-entreprise nantaise en activité
+libérale, SIREN 104 378 815) un kit RGPD prêt-à-signer destiné
+aux SaaS européennes de moins de cinquante personnes au moment où
+elles décrochent leur premier client B2B exigeant un DPA, un
+registre Article 30, une politique de confidentialité et une note
+transferts crédibles. Cinq documents en français, environ 3 100
+lignes, playbook de négociation inclus, prix d'entrée 149 € TTC.
 
 Je m'adresse à vous précisément parce que les fondateurs que vous
 accompagnez via SEMIA — équipes incubées de moins de cinquante
@@ -80,7 +82,7 @@ Je vous joins le lien d'accès au kit dans la même réponse.
 
 Cordialement,
 **Marcus Orlov — pour SoBaq**
-[à compléter : email SoBaq de contact]
+contact@sobaq.fr
 
 ---
 
@@ -95,12 +97,17 @@ Cordialement,
    personnage hors du premier mail. Rejetée — opacité initiale,
    transparence retardée, risque de perte de confiance après
    découverte du Substack.
-2. **SIREN mentionné dès le premier paragraphe.** Données
-   d'identification d'une entité commerciale légitime, conformes au
-   niveau de formalité attendu par une DPO certifiée. RCS « en
-   cours d'inscription » assumé tel quel — formulation honnête,
-   non dissimulatrice. Alternative : taire la mention le temps que
-   le RCS soit définitif. Rejetée — rallonge le délai sans gain.
+2. **SIREN définitif mentionné dès le premier paragraphe + statut
+   libéral assumé.** Données d'identification d'une entité légitime,
+   conformes au niveau de formalité attendu par une DPO certifiée. La
+   formulation « micro-entreprise nantaise en activité libérale,
+   SIREN 104 378 815 » remplace le couple « SIREN 104 193 933 + RCS
+   en cours d'inscription » du draft v0.1, devenu caduc après refus
+   du greffe TCO de Nantes le 27/04 (requalification de l'activité de
+   commerciale en libérale, J00236822078 invalidée) et nouvelle
+   formalité libérale BNC déposée le 28/04 (J00237943824, INSEE +
+   URSSAF, sans étape RCS). Mention RCS supprimée — SoBaq ne sera
+   pas inscrite au RCS.
 3. **Pourcentage d'affiliation [X %] laissé en placeholder.** À
    trancher avant envoi en fonction des standards d'affiliation B2B
    du marché DPO (recherche dédiée à faire). Hypothèse de travail
@@ -126,43 +133,59 @@ Cordialement,
 
 ## Open questions — bloquantes pour l'envoi
 
-1. **Channel d'envoi à arbitrer avec Baq.** Safety rail §5 interdit
-   l'usage des comptes personnels de Baq pour le projet. SoBaq doit
-   donc disposer **a minima** d'un mail dédié (`contact@sobaq.fr`
-   ou équivalent) et idéalement d'une page LinkedIn d'entité, avant
-   tout outreach. Aucune des deux surfaces n'existe à la date de ce
-   draft. **Mission Baq dédiée à émettre** quand l'ensemble des
-   trois variants sera prêt : *"créer surface pro SoBaq (mail +
-   LinkedIn entité) avant outreach DPO Tier A"*.
-2. **Artefact à transmettre dans la réponse n'existe pas encore.**
+1. **Channel mail SoBaq : « send-as » Gmail à finaliser côté Baq.**
+   `contact@sobaq.fr` reçoit déjà (OVH MX Plan classique, redirection
+   active vers la boîte de Baq, opérationnelle depuis 29/04 commit
+   `216444b`). L'émission authentique depuis `contact@sobaq.fr`
+   (signature SPF/DKIM, expéditeur visible côté DPO) dépend de la
+   configuration `send-as` côté Gmail, listée dans `learnings.md`
+   du 29/04 comme à finaliser. Tâche Baq, pas Marcus.
+2. **Page LinkedIn entité SoBaq — posture arbitrée 2026-04-30
+   (journal du jour).** Décision : page entité **minimale**
+   (raison sociale, SIREN 104 378 815, siège Nantes, baseline
+   d'une ligne, lien Substack), **sans voix éditoriale active**.
+   Justification : Principe V (consolidation avant communication —
+   pas de canal éditorial avant première vente), Principe VI
+   (le silence utile — la page sert l'identification d'une DPO
+   qui googlerait, pas la diffusion), Rail §3.x (réduit le risque
+   d'adjacence avec l'environnement salarié de Baq). Mission
+   Baq de création à émettre quand les trois variants seront
+   figés.
+3. **Artefact à transmettre dans la réponse n'existe pas encore.**
    Le message promet *"je vous joins le lien d'accès au kit dans la
    même réponse"*. Aujourd'hui le kit est cinq fichiers `.md` dans
    un repo privé. Pas de ZIP packagé, pas de PDF, pas de page
    Notion publique, pas d'aperçu Gumroad. Si Laetitia répond
    favorablement sous cinq à dix jours, **rien n'est livrable en
-   l'état**. Distinct du blocage channel : le « comment envoyer »
-   est rail §5, le « quoi envoyer » est un livrable produit. Tâche
-   préalable à l'envoi : packaging minimal (ZIP des cinq `.md` +
-   lecture cover + README + DISCLAIMER, accessible via lien Drive
-   ou équivalent à durée limitée). Cible : packaging fait avant
-   envoi des trois propositions, soit fin de semaine S1-W2.
-3. **Pourcentage d'affiliation à trancher.** Marcus à faire avant
+   l'état**. Tâche préalable à l'envoi : packaging minimal (ZIP des
+   cinq `.md` + lecture cover + README + DISCLAIMER, accessible
+   via lien Drive ou équivalent à durée limitée). Cible : packaging
+   fait avant envoi des trois propositions, soit fin de semaine
+   S1-W2 ou début S1-W3.
+4. **Pourcentage d'affiliation à trancher.** Marcus à faire avant
    envoi : recherche rapide sur standards affiliation B2B
-   contenu / kit DPO. Décision attendue d'ici jeudi 30 avril.
-4. **SIRET complet vs SIREN seul.** Si SIRET reçu d'ici envoi,
-   substituer la mention « SIREN 104 193 933, RCS Nantes en cours
-   d'inscription » par les coordonnées finales (SIRET 14 chiffres
-   + numéro RCS définitif).
+   contenu / kit DPO. Reportée à 2026-05-01 (vendredi) après
+   livraison variant 3.
 5. **Tester la lisibilité de l'asymétrie « 30 minutes seulement »
    vs longueur du kit (3 139 lignes).** Risque que ça paraisse
    incohérent — kit massif, demande très réduite. La résolution
    est dans le texte (« lecture transverse », pas « audit »), mais
    à valider sur la version finale. Aligner aussi le compte de
    lignes du message (« environ 3 100 ») sur le chiffre exact
-   (3 139) au moment du figeage v0.2.
+   (3 139) au moment du figeage final.
 
 ## Versioning
 
 - **v0.1** — 2026-04-28. Premier jet variant 1 (Laetitia Schmuck).
   Aucun envoi. Décisions principales documentées au §Décisions
   prises ; questions bloquantes au §Open questions.
+- **v0.2** — 2026-04-30. Substitution du paragraphe d'identification
+  SoBaq : « SIREN 104 193 933, RCS Nantes en cours d'inscription »
+  → « micro-entreprise nantaise en activité libérale, SIREN
+  104 378 815 ». Mention RCS supprimée. Email de contact
+  `contact@sobaq.fr` ajouté en signature. Channel envisagé fixé
+  (mail SoBaq, send-as Gmail à finaliser côté Baq). §Open questions
+  réécrit : channel mail résolu en partie (réception OK, émission en
+  attente côté Baq), posture LinkedIn arbitrée et tracée (journal
+  2026-04-30, page entité minimale sans voix éditoriale). Aucune
+  modification de fond du texte du message.
