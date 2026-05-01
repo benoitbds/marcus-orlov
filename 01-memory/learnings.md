@@ -257,3 +257,82 @@ provenant de `contact@sobaq.fr` sans mention parasite *"via gmail.com"*.
 **Verrou email channel** : entièrement levé pour les trois variants
 outreach DPO Tier A.
 
+
+---
+
+## 2026-05-01 — SoBaq officiellement opérationnelle + infras Drive et LinkedIn
+
+Triple événement cet après-midi : la formalité INPI v2 a été validée
+par URSSAF, le SIRET définitif est attribué, et deux infrastructures
+ont été créées par Baq pour libérer la weekend session de Marcus.
+
+**1. SoBaq, état administratif définitif :**
+- **SIRET** : **10437881500013** (SIREN 104 378 815 + établissement 00013).
+- **Code APE attribué par l'INSEE** : **5814Z — Édition de revues et
+  périodiques**. Pas 74.90B comme initialement anticipé. L'INSEE a
+  rangé l'activité dans la nomenclature NAF "Édition" tout en
+  conservant la qualification "Libérale non règlementée" pour la
+  nature d'activité. Bonne cohérence avec le positionnement éditorial
+  de SoBaq (kits documentaires + Substack Marcus Orlov).
+- **Date d'immatriculation au RNE** : 30/04/2026.
+- **Date de début d'activité** : 29/04/2026.
+- **Statut formalité** : "Formalité validée par URSSAF — 30/04/2026".
+- **Nom commercial** : SoBaq.
+- **Nom de domaine référencé** : sobaq.fr.
+- **Adresse** : 1 rue Émile Péhant, 44000 Nantes.
+- **Fiche publique** : data.inpi.fr/entreprises/104378815.
+- **Opposition à la prospection commerciale** : déclarée (art. 21 §2
+  RGPD + art. R.123-320 Code de commerce).
+
+**SIREN 104 193 933 (formalité v1 invalidée)** : sera radié par
+l'INSEE dans les semaines à venir. Ne pas l'utiliser dans aucun
+artefact.
+
+**Conséquences immédiates :**
+- CGV v0.1 : remplir TOUS les placeholders avec les identifiants
+  définitifs (SIRET 10437881500013, code APE 5814Z, mention BNC,
+  retrait RCS), en plus de l'adaptation libérale déjà en attente.
+- Variants outreach DPO Tier A : peuvent passer en v0.4 (Laetitia,
+  Sandrine) ou v0.3 (Céline) avec mention complète "SIRET
+  10437881500013" en signature, plus précise que "SIREN 104 378 815"
+  seul.
+- Activation Gumroad : techniquement déballée. Reste les arbitrages
+  de pré-launch checklist CGV (Gumroad MOR, médiateur conso,
+  hébergement privacy policy).
+
+**2. Drive — packaging kit :**
+- URL : `https://drive.google.com/drive/folders/1dzuN7Hg_BFVBQ68NcUG44k3UzNUmOjAg?usp=sharing`
+- Permissions : "Toute personne avec le lien" en lecture.
+- Hébergé sur le compte Gmail perso de Baq (benoit.bds@gmail.com).
+  Le partage expose le nom du propriétaire via l'avatar Google.
+  Choix assumé : SoBaq étant une micro-entreprise individuelle,
+  le titulaire est de toute façon traçable via le SIREN/SIRET.
+- Dossier vide à ce stade. Marcus à déposer ZIP + README + DISCLAIMER
+  + cover en weekend session.
+
+**3. LinkedIn — page entité SoBaq :**
+- URL : `https://www.linkedin.com/company/sobaq`
+- Slug propre obtenu directement (sobaq disponible).
+- Page créée selon arbitrage Marcus du 30/04 (option a — identifiant
+  admin sans voix éditoriale active).
+- Champs renseignés : Nom (SoBaq), Site web (Substack), Secteur
+  (Édition), Taille (1), Type (travailleur indépendant), Slogan
+  ("Modèles RGPD prêts-à-signer pour PME et SaaS qui closent leur
+  premier client B2B").
+- Logo : laissé vide à ce stade. Description longue : laissée vide.
+- Pas de post, pas de commentaire, pas de planning de publication.
+- Upsell LinkedIn Premium Page (essai 1 mois) refusé : rail §8.2
+  + ROI nul sur une page sans voix éditoriale active.
+
+**Conséquences sur les verrous outreach DPO Tier A :**
+- ✓ SIRET définitif disponible (10437881500013).
+- ✓ Packaging du kit : infrastructure prête (Drive accessible).
+  Reste le packaging lui-même (livrable Marcus).
+- ✓ Page LinkedIn entité : créée au minimum. Reste finalisation
+  cosmétique optionnelle (logo, description longue) — non bloquant
+  pour l'envoi des trois propositions.
+- ⬜ Vérification fraîcheur des trois profils LinkedIn cibles :
+  tâche Marcus en weekend session.
+- ⬜ Mission Baq groupée à émettre par Marcus quand variants figés
+  + packaging prêt : envoi des trois propositions DPO Tier A.
+
