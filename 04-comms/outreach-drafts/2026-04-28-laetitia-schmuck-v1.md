@@ -5,12 +5,12 @@ target_location: Strasbourg
 target_profile_url: https://www.linkedin.com/in/laetitia-schmuck-72882123
 tier: A
 variant: 1
-status: draft v0.2 (non envoyé)
+status: draft v0.3 (non envoyé)
 created: 2026-04-28
-last_updated: 2026-04-30
+last_updated: 2026-05-01
 sent_at: null
 sent_by: null
-channel_intended: mail (contact@sobaq.fr) — send-as Gmail côté Baq à finaliser avant envoi
+channel_intended: mail (contact@sobaq.fr) — send-as Gmail opérationnel (commit `a33207e`, 30/04)
 language: FR
 target_word_count: 200-300
 actual_word_count: ~240
@@ -68,8 +68,8 @@ Sans upfront, sans promesse de volume, je propose :
   et vos clientes incubées.
 - Une citation *reviewed by Laetitia Schmuck, DPO* sur la
   couverture du kit, si la matière vous paraît juste après lecture.
-- Un lien d'affiliation unique avec une part fixe [X %, à convenir]
-  sur chaque vente issue de votre canal.
+- Un lien d'affiliation unique avec une part fixe de 30 % sur
+  chaque vente issue de votre canal.
 
 Premier engagement demandé : 30 minutes pour une lecture transverse
 du *playbook* (huit clauses négociables, paliers défense / concession
@@ -108,12 +108,19 @@ contact@sobaq.fr
    formalité libérale BNC déposée le 28/04 (J00237943824, INSEE +
    URSSAF, sans étape RCS). Mention RCS supprimée — SoBaq ne sera
    pas inscrite au RCS.
-3. **Pourcentage d'affiliation [X %] laissé en placeholder.** À
-   trancher avant envoi en fonction des standards d'affiliation B2B
-   du marché DPO (recherche dédiée à faire). Hypothèse de travail
-   non engageante : 20-30 %. Pas écrit dans le message tant que la
-   décision n'est pas prise (Principe V — pas de chiffre verbalisé
-   non consolidé).
+3. **Pourcentage d'affiliation fixé à 30 %.** Décision arrêtée
+   2026-05-01 après recherche sur standards B2B (referralcandy
+   2026, Gumroad 2026, Tapfiliate / Rewardful SaaS). Trois ancres :
+   (a) digital products affiliate norm 20–50 %, (b) B2B SaaS /
+   channel partner standard 20–30 %, (c) règle de durabilité
+   « commission ≤ 30 % du gross margin ». Marge nette estimée sur
+   149 € TTC en BNC libéral ~69 % (après URSSAF 21,1 % et frais
+   plateforme ~10 %), soit 30 % du prix = 43 % du gross margin —
+   au-dessus de la fourchette stricte mais cohérent avec le canal
+   (le DPO apporte autorité + réseau qualifié, au-delà d'un simple
+   lien). 30 % retenu plutôt que 25 % parce que la citation
+   *reviewed by* est un actif marketing transféré, pas un simple
+   placement.
 4. **Premier engagement = 30 min sur le playbook seul.** Pas le
    kit complet, pas une revue de fond. Réduit la friction
    d'entrée. La revue plus profonde se fait *si* elle juge la
@@ -133,13 +140,12 @@ contact@sobaq.fr
 
 ## Open questions — bloquantes pour l'envoi
 
-1. **Channel mail SoBaq : « send-as » Gmail à finaliser côté Baq.**
-   `contact@sobaq.fr` reçoit déjà (OVH MX Plan classique, redirection
-   active vers la boîte de Baq, opérationnelle depuis 29/04 commit
-   `216444b`). L'émission authentique depuis `contact@sobaq.fr`
-   (signature SPF/DKIM, expéditeur visible côté DPO) dépend de la
-   configuration `send-as` côté Gmail, listée dans `learnings.md`
-   du 29/04 comme à finaliser. Tâche Baq, pas Marcus.
+1. **Channel mail SoBaq : levé.** `contact@sobaq.fr` opérationnel
+   en réception (OVH MX Plan classique, redirection active depuis
+   29/04, commit `216444b`) **et en émission authentique** (send-as
+   Gmail finalisé 30/04, commit `a33207e`, SMTP authentifié OVH
+   `ssl0.ovh.net:465 SSL`). Une réponse à un mail SoBaq apparaîtra
+   côté DPO sans mention parasite « via gmail.com ».
 2. **Page LinkedIn entité SoBaq — posture arbitrée 2026-04-30
    (journal du jour).** Décision : page entité **minimale**
    (raison sociale, SIREN 104 378 815, siège Nantes, baseline
@@ -162,10 +168,8 @@ contact@sobaq.fr
    via lien Drive ou équivalent à durée limitée). Cible : packaging
    fait avant envoi des trois propositions, soit fin de semaine
    S1-W2 ou début S1-W3.
-4. **Pourcentage d'affiliation à trancher.** Marcus à faire avant
-   envoi : recherche rapide sur standards affiliation B2B
-   contenu / kit DPO. Reportée à 2026-05-01 (vendredi) après
-   livraison variant 3.
+4. **Pourcentage d'affiliation : levé.** Fixé à 30 % le 2026-05-01,
+   décision documentée au §Décisions point 3.
 5. **Tester la lisibilité de l'asymétrie « 30 minutes seulement »
    vs longueur du kit (3 139 lignes).** Risque que ça paraisse
    incohérent — kit massif, demande très réduite. La résolution
@@ -189,3 +193,10 @@ contact@sobaq.fr
   attente côté Baq), posture LinkedIn arbitrée et tracée (journal
   2026-04-30, page entité minimale sans voix éditoriale). Aucune
   modification de fond du texte du message.
+- **v0.3** — 2026-05-01. Substitution `[X %, à convenir]` →
+  `30 %` dans le texte du message après recherche standards
+  affiliation B2B. §Décisions point 3 réécrit avec sources et
+  raisonnement. §Open questions point 1 mis à jour (send-as
+  Gmail finalisé 30/04, channel mail entièrement levé). Point 4
+  mis à jour (pourcentage levé). Aucune modification de fond du
+  texte ni du positionnement.
