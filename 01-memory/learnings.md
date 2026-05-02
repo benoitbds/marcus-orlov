@@ -372,3 +372,10 @@ date d'envoi B2B sans avoir vérifié au préalable qu'elle tombe
 sur un créneau valide (mardi-jeudi, hors plages 12h-14h et
 après 17h).
 
+
+---
+
+## 2026-05-02 — Timing d'envoi B2B : pas le week-end
+
+[...bloc complet du message précédent, avec ajustement créneau 8h30 plutôt que 9h30...]
+
