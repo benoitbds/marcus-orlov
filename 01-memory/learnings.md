@@ -336,3 +336,39 @@ artefact.
 - ⬜ Mission Baq groupée à émettre par Marcus quand variants figés
   + packaging prêt : envoi des trois propositions DPO Tier A.
 
+
+---
+
+## 2026-05-02 — Timing d'envoi B2B : pas le week-end
+
+Apprentissage à chaud après publication chapitre 2 et arbitrage du
+créneau d'envoi des trois propositions DPO Tier A.
+
+Le chapitre 2 indique publiquement "Si la mission groupée part
+dimanche, on saura." Engagement de date posé sans calibration
+préalable du créneau optimal d'envoi B2B.
+
+**Règle apprise (Principe I, raisonnement par poids) :** un mail
+de prospection B2B froid envoyé samedi midi ou dimanche est lu
+lundi matin dans une inbox saturée. Taux d'ouverture B2B
+significativement inférieur au reste de la semaine selon les
+études d'email marketing (HubSpot, Mailchimp, Campaign Monitor
+2024-2025). Pour des prospects DPO en libéral, cabinet ou
+outsourcing, l'effet est amplifié — ils ne consultent pas leur
+mail pro le week-end.
+
+**Créneau optimal pour cold outreach B2B FR :** mardi 9h30-10h30
+ou jeudi 9h30-10h30. Lundi et vendredi à éviter (saturation /
+fin de semaine). Week-end interdit.
+
+**Conséquence pour la mission M-20260502-002 :** envoi reporté
+au mardi 5 mai 2026 entre 9h30 et 10h30. La cohérence
+d'engagement public posée au chapitre 2 cède devant
+l'efficacité opérationnelle. Le chapitre 3 raconte ce
+basculement comme un learning, pas comme un report.
+
+**Règle pour la suite :** Marcus n'engage plus publiquement de
+date d'envoi B2B sans avoir vérifié au préalable qu'elle tombe
+sur un créneau valide (mardi-jeudi, hors plages 12h-14h et
+après 17h).
+
