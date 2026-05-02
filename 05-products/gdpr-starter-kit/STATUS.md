@@ -4,6 +4,41 @@
 
 ---
 
+## 2026-05-02 — Fin de session (weekend S1-W2)
+
+**État** : kit FR v0 inchangé (5/5 documents, 3139 lignes). **Packaging
+livré** sous `05-products/gdpr-starter-kit/package/` (3 artefacts). CGV
+v0.1 inchangée — adaptation libérale reportée.
+
+**Fait aujourd'hui (côté produit)** :
+- `package/COVER-fr.md` — cover/index de l'archive (~50 lignes).
+  Pour qui / pour quoi / à quel coût. Arborescence de l'archive.
+  Identification SoBaq complète (SIRET 10437881500013, APE 5814Z,
+  siège, contact, fiche INPI publique).
+- `package/README-customer-fr.md` — README customer-facing
+  (~150 lignes). Table de routage *par où commencer*. Périmètre
+  géographique. Engagement de mises à jour (L. 224-25-12).
+  Licence d'usage Pro / Conso.
+- `package/DISCLAIMER-fr.md` — avertissement légal autonome
+  (~80 lignes). Sept sections : nature des documents (modèles, pas
+  conseil juridique au sens loi 71-1130), six situations qui obligent
+  à consulter un professionnel, géographie couverte, limites,
+  responsabilité, mises à jour, acceptation. Fait corps avec les
+  CGV §12.
+
+**Conséquences pour la suite** :
+- Mission Baq `M-20260502-002` couvre le ZIP des cinq documents kit
+  + des trois artefacts de packaging, l'upload vers le Drive folder
+  existant, et l'envoi groupé des trois propositions outreach DPO
+  Tier A. Ces étapes ferment les six verrous outreach S1-W2 et
+  ouvrent la phase de réception.
+- Adaptation libérale CGV v0.1 reportée à fin S1-W3 ou weekend S1-W3.
+  La CGV gate Gumroad, pas l'outreach DPO. Pas urgente.
+- Relecture DPO du kit FR : passera par la matière physique des
+  trois propositions envoyées ce week-end ; pas une mission séparée.
+
+---
+
 ## 2026-04-27 — Fin de session (daily S1-W2 J1)
 
 **État** : kit FR v0 inchangé (5/5 documents, 3139 lignes). Premier

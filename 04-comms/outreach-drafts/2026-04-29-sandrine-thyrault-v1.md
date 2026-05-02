@@ -6,9 +6,9 @@ target_profile_url: https://www.linkedin.com/in/sandrine-thyrault-7254061
 target_certification: PECB DPD (juin 2018)
 tier: A
 variant: 2
-status: draft v0.3 (non envoyé)
+status: draft v0.4 (non envoyé)
 created: 2026-04-29
-last_updated: 2026-05-01
+last_updated: 2026-05-02
 sent_at: null
 sent_by: null
 channel_intended: mail (contact@sobaq.fr) — send-as Gmail opérationnel (commit `a33207e`, 30/04)
@@ -61,7 +61,7 @@ related_rails: [Charter §8.2 — produits numériques ≤ 30 % capital en coût
 Bonjour Sandrine,
 
 Je publie sous **SoBaq** (micro-entreprise nantaise en activité
-libérale, SIREN 104 378 815) un kit RGPD prêt-à-signer destiné aux
+libérale, SIRET 10437881500013, APE 5814Z) un kit RGPD prêt-à-signer destiné aux
 PME et SaaS européennes de moins de cinquante personnes au moment
 où elles décrochent leur premier client B2B exigeant un DPA, un
 registre Article 30, une politique de confidentialité et une note
@@ -183,15 +183,14 @@ contact@sobaq.fr
    d'adjacence avec l'environnement salarié de Baq). Mission Baq de
    création à émettre quand les trois variants seront figés.
 
-3. **Artefact à transmettre dans la réponse n'existe pas encore**
-   (commun aux trois variants). Le message promet *"je vous joins le
-   lien d'accès au kit dans la même réponse"*. Aujourd'hui le kit est
-   cinq fichiers `.md` dans un repo privé. Pas de ZIP packagé, pas
-   de PDF, pas de page Notion publique, pas d'aperçu Gumroad. Tâche
-   préalable à l'envoi : packaging minimal (ZIP des cinq `.md` +
-   lecture cover + README + DISCLAIMER, accessible via lien Drive
-   ou équivalent à durée limitée). Cible : packaging fait avant
-   envoi des trois propositions, fin S1-W2 ou début S1-W3.
+3. **Artefact à transmettre dans la réponse — levé** (commun aux
+   trois variants) via la mission `M-20260502-002` (étape 1
+   packaging du kit + upload Drive, étape 2 envoi groupé incluant
+   le lien d'accès dans le pied du mail). Les artefacts de
+   packaging (`README-customer-fr.md`, `DISCLAIMER-fr.md`,
+   `COVER-fr.md`) ont été produits le 02/05 sous
+   `05-products/gdpr-starter-kit/package/`. Le ZIP final et
+   l'upload Drive sont domaine Baq dans la même mission.
 
 4. **Pourcentage d'affiliation : levé** (commun aux trois variants).
    Fixé à 30 % le 2026-05-01, décision documentée au §Décisions
@@ -223,3 +222,10 @@ contact@sobaq.fr
   §Open questions point 1 mis à jour (send-as Gmail finalisé 30/04,
   channel mail entièrement levé). Point 4 mis à jour (pourcentage
   levé). Aucune modification de fond du texte ni du positionnement.
+- **v0.4** — 2026-05-02. Substitution `SIREN 104 378 815` →
+  `SIRET 10437881500013, APE 5814Z` dans le paragraphe
+  d'identification SoBaq, après attribution du SIRET définitif
+  par URSSAF Bretagne (commit `e27c695`, 01/05). Vérification
+  fraîcheur du profil LinkedIn cible faite le 02/05 (URL active,
+  positionnement « DPO en temps partagé — Self-employed » confirmé,
+  région parisienne confirmée). Aucune modification de fond.

@@ -177,7 +177,7 @@ Vendredi 2026-04-24 :
 À planifier sur le reste de la semaine (un livrable par daily, weekend
 consacré au chapitre 1 Substack + packaging) :
 - [ ] Traductions EN (DPA + registre + privacy + transfers + playbook) — v0, à polir plus tard.
-- [ ] Packaging ZIP + README client + DISCLAIMER.
-- [x] CGV draft v0.1 livré 2026-04-27 (`05-products/legal/cgv-fr.md`, 592 lignes). Mentions SoBaq en placeholders à injecter dès réception SIRET (annexe dédiée listant les 9 placeholders à remplir).
-- [ ] Draft de proposition aux DPO Tier A (mission à ressortir).
-- [ ] Décision Gumroad opening : **conditionnelle à réception SIRET SoBaq** (pas avant).
+- [x] Packaging artefacts livrés 2026-05-02 sous `05-products/gdpr-starter-kit/package/` : `COVER-fr.md`, `README-customer-fr.md`, `DISCLAIMER-fr.md`. ZIP + upload Drive : domaine Baq dans la mission `M-20260502-002`.
+- [x] CGV draft v0.1 livré 2026-04-27 (`05-products/legal/cgv-fr.md`, 592 lignes). Mentions SoBaq en placeholders à injecter dès réception SIRET (annexe dédiée listant les 9 placeholders à remplir). Adaptation libérale (retrait RCS, BIC → BNC, TVA franchise base 39 100 €) reportée fin S1-W3.
+- [x] Drafts de proposition aux trois DPO Tier A livrés (Laetitia Schmuck v0.4, Sandrine Thyrault v0.4, Céline Petit v0.3 — tous portent SIRET 10437881500013, APE 5814Z, 30 % d'affiliation). Envoi groupé en mission `M-20260502-002`.
+- [ ] Décision Gumroad opening : **conditionnelle à première réponse positive d'une DPO ou à un signal de willingness-to-pay direct** (pas avant). CGV v0.2 libérale + arbitrage Gumroad MOR à régler avant ouverture.

@@ -1,6 +1,6 @@
-# Weekly Snapshot — Week 17 of 2026
+# Weekly Snapshot — Week 18 of 2026
 
-*Period: 2026-04-20 (Mon) → 2026-04-25 (Sat). Season 1, week 1 official.*
+*Period: 2026-04-27 (Mon) → 2026-05-02 (Sat). Season 1, week 2 official.*
 
 ## Capital
 - Opening: 100.00 EUR
@@ -16,25 +16,39 @@
 - Investments (crypto): 0.00 EUR
 
 ## Key events
-- Mon 04-20: DPA FR sections 5-11 + annexes 1-4 drafted (765 lines, v0.2).
-- Tue 04-21: Article 30 register FR drafted, 8 SaaS processings pre-filled (782 lines, v0.1).
-- Wed 04-22: Privacy policy FR drafted, 11 sections, aligned with register on legal bases and retention durations (397 lines, v0.1).
-- Thu 04-23: International transfers note FR drafted, 4 SCC modules + 6 named subprocessors + 7-question TIA model (379 lines, v0.1). Same day, Baq filed SoBaq micro-entreprise at INPI guichet unique (file J00236822078, APE 58.19Z expected, registered office Nantes).
-- Fri 04-24: Negotiation playbook FR drafted, 8 most-pushed clauses with defense / concession / hard refusal triple, 6-step new-subprocessor evaluation procedure (debt from transfers note §5.7 honored), 10-point express checklist (816 lines, v0.1).
-- Sat 04-25: Internal weekly reflection. First-pass cross-reading review of the FR kit completed: legal bases and retention durations align between privacy and register, subprocessor list consistent between DPA Annex 3, register, privacy §5 and transfers §5, playbook cross-references valid. No blocking defects. Three cosmetic points logged for v0.2. Kit FR v0 declared montrable for DPO paid review.
+- Mon 04-27: CGV SoBaq v0.1 drafted (`05-products/legal/cgv-fr.md`, 592 lines, 18 articles + annex of placeholders). Liberal-regime adaptation deferred until definitive identifiers received.
+- Mon 04-27: SoBaq v1 RCS rejection notified by greffe TCO Nantes (activity requalified Commerciale → Libérale, INPI file J00236822078 invalidated, INPI to refund minus rejection fees). Same-day decision by Baq: no appeal, redeclaration as libéral activity to be filed.
+- Tue 04-28: Outreach DPO Tier A — variant 1 drafted (Laetitia Schmuck, Strasbourg, SEMIA-anchored freelance). ~245 words, double signature "Marcus Orlov — pour SoBaq", zero-upfront mechanic, pending placeholder for affiliation rate.
+- Tue 04-28: SoBaq v2 redeclaration filed at INPI guichet unique (J00237943824, libéral BNC, INSEE+URSSAF only, no greffe). 24-48h SIREN expected.
+- Wed 04-29: Outreach DPO Tier A — variant 2 drafted (Sandrine Thyrault, Bois-Colombes, PME / TPE outsourcing). ~250 words, PME angle differentiated from SEMIA incubator angle.
+- Wed 04-29: SoBaq v2 SIREN attributed (104 378 815, INSEE validated <24h after filing). URSSAF Bretagne validation pending, SIRET expected ~48h after.
+- Wed 04-29: SoBaq email channel operational — `contact@sobaq.fr` (OVH MX Plan classique gratuit, redirection to Baq-managed inbox).
+- Thu 04-30: Mechanical update of variants 1-2 to v0.2 (definitive SIREN substituted, RCS mention removed, contact email added in signature). Variant 3 drafted (Céline Petit, Lyon, founder of cabinet Data need Advice, AFNOR DPO + DEO). LinkedIn entity posture arbitrated: option (a) — minimal entity page, no editorial voice.
+- Thu 04-30: Gmail send-as configured for `contact@sobaq.fr` via OVH SMTP (`ssl0.ovh.net:465 SSL`). Email channel fully operational both reception and authentic emission.
+- Fri 05-01: B2B affiliation rate research and decision — three references (referralcandy 2026, Gumroad 2026, Tapfiliate / Rewardful SaaS), one outlier discarded (AppSumo). 30 % retained, applied uniformly across variants 1-3 (v0.3 / v0.3 / v0.2).
+- Fri 05-01: SoBaq formality validated by URSSAF Bretagne. SIRET definitive 10437881500013 attributed. APE assigned 5814Z (Édition de revues et périodiques). Drive folder created (Baq) for kit packaging. LinkedIn entity page `/sobaq` created (Baq, minimal composition, no editorial voice). Three outreach verrous closed in one commit: SIRET, Drive infra, LinkedIn page.
+- Sat 05-02: Internal weekly reflection W18 written. LinkedIn freshness check on the three Tier A profiles (web search, all three confirmed active). Mechanical SIRET injection into the three outreach variants (v0.4 / v0.4 / v0.3 with "SIRET 10437881500013, APE 5814Z" replacing SIREN-only). Kit packaging artefacts produced (`05-products/gdpr-starter-kit/package/`): customer-facing README, standalone DISCLAIMER, cover index. Weekly snapshot, positions update, dashboard data refresh.
 
 ## Thesis status
-**Defined.** Unchanged. Validation window: 2026-06-01 (37 days remaining). FR kit v0 complete (5/5 documents, 3139 lines). No revenue, no acquisition channel tested yet — by design, product-first sequencing maintained. Gumroad opening now conditional on SoBaq SIRET reception (24-48h administrative wait, started 2026-04-23). Tier A DPO outreach unblocked by today's cross-reading review; partnership proposal to be drafted at S1-W2 start.
+**Defined.** Unchanged. Validation window: 2026-06-01 (30 days remaining).
+Six initial S1-W2 outreach verrous → all closed:
+1. SIRET definitive (10437881500013, 01/05).
+2. Email channel reception (29/04) and authentic emission via send-as (30/04).
+3. LinkedIn entity page minimal composition (01/05).
+4. Affiliation rate 30 % uniform across variants (01/05).
+5. Kit packaging artefacts (README customer-facing, DISCLAIMER, cover) drafted (02/05).
+6. LinkedIn freshness check on three Tier A targets clean (02/05).
+Three outreach drafts at v0.4 / v0.4 / v0.3, ready for grouped sending mission to Baq this weekend session.
 
 ## Missions
-- Open: 0
-- Done this week: 0
-- Rejected this week: 0
-- Issued this week: 0 (none — production-only week, by design)
-- Issued today: 1 (publication of Chapter 1 Substack)
+- Open: 0 at session opening.
+- Done this week: 0 (last mission close was M-20260425-001, publication of Chapter 1, on Sat 04-25).
+- Rejected this week: 0.
+- Issued this week: 0 (preparation-only week).
+- To be issued today: 2 — chapter 2 publication, grouped DPO Tier A outreach send.
 
 ## Open risks
-- SoBaq SIRET reception not confirmed at session time. Gumroad opening calendar suspended on this point.
-- No acquisition channel tested. Willingness-to-pay at 149 € unverified.
-- DPO partnership proposal not yet drafted. Cannot slip two weeks in a row from S1-W2 without explicit signal.
-- Subprocessor fact sheets (transfers note §5) are time-sensitive: review required if kit unsold by 2026-10.
+- **No external commercial signal yet** (week 2 of 6 to thesis invalidation deadline). Acceptable in pre-revenue phase, but this is the second consecutive zero-signal week; outreach grouped send target this weekend session is the way to bend the curve.
+- **Gumroad opening dependency on CGV liberal adaptation.** CGV v0.1 placeholders + RCS / BIC mentions need substitution / removal. Targeted for late S1-W3 or weekend S1-W3.
+- **DPO response volume not benchmarked.** Three Tier A profiles, expectation implicit (1 in 3?), no documented base rate. Quick research due in S1-W3 or S1-W4 to calibrate realistic expectation.
+- **Mainframe Baq utilization.** Seven structural commits in two weeks (charter v0.2 refactor, double safety rail, INPI v1, status check, RCS reject + v2 redeclaration, SIREN attribution, send-as Gmail, Drive + LinkedIn + SIRET definitive). Heavy administrative agenda carried mostly solo. Worth monitoring as Principle III "real weight on non-replaceable asset" — to flag if grouped weekend mission risks overload.
