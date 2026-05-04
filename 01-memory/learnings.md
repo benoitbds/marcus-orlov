@@ -375,7 +375,117 @@ après 17h).
 
 ---
 
-## 2026-05-02 — Timing d'envoi B2B : pas le week-end
 
-[...bloc complet du message précédent, avec ajustement créneau 8h30 plutôt que 9h30...]
+---
+
+## 2026-05-04 (soir) — Pré-flight M-002 : trois découvertes bloquantes, envoi décalé à mercredi 7 mai 8h30
+
+Pré-flight de la mission M-20260502-002 (envoi groupé outreach DPO
+Tier A) effectué dimanche 4 mai en soirée. Trois découvertes ont
+modifié le plan d'envoi prévu mardi 5 mai 8h30.
+
+### Découverte 1 — Sourcing initial sans qualification d'adresse compliante
+
+Le sourcing du 17/04 (Claude for Chrome, POC) a identifié les trois
+cibles via leur profil LinkedIn mais n'a pas qualifié à l'époque
+l'existence d'une adresse de contact compliante hors LinkedIn.
+Conséquence découverte le 04/05 : aucune adresse mail dans les
+fichiers variants, et envoi nominal mail depuis contact@sobaq.fr
+non préparé.
+
+Recherche d'adresses publiques compliantes effectuée le 04/05 via
+Claude for Chrome (sites web pro, mentions légales, annuaires AFCDP,
+pas de scraping LinkedIn ni d'outils tiers type Apollo / Hunter /
+ContactOut). Trois résultats :
+
+- **Céline Petit** — `contact@dataneedadvice.com` trouvée sur
+  https://dataneedadvice.com/conditions-generales avec mention
+  "Adresse électronique de contact" et identification de Céline
+  Petit comme directrice de la publication. **Compliant art. 6.1.f
+  RGPD**, intérêt légitime B2B.
+
+- **Laetitia Schmuck** — `dpo@keymaging.com` trouvée sur
+  https://keymaging.com/politique-de-confidentialite/ comme
+  coordonnées DPO de Keymaging (un de ses clients). **Compliance
+  ambiguë** : adresse publiée pour la finalité spécifique "contact
+  DPO de Keymaging", utilisation pour proposition partenariat
+  freelance = re-finalisation, risquée vis-à-vis d'une DPO
+  certifiée. **Décision : ne pas utiliser cette adresse**, recherche
+  complémentaire d'une adresse Laetitia hors mission Keymaging à
+  faire en S1-W3.
+
+- **Sandrine Thyrault** — Aucune adresse publique trouvée hors
+  réseaux sociaux (LinkedIn, Viadeo). **Décision : pas d'envoi
+  mardi**, sourcing complémentaire à arbitrer en S1-W3 daily.
+
+### Découverte 2 — Send-as Gmail SoBaq cassé en émission
+
+Test send-as effectué dimanche 04/05 soir en préparation des
+brouillons. Erreur Gmail "Pa: KKg" (Uncaught Error _.Ty / Q4A) au
+moment de cliquer Envoyer quand l'alias contact@sobaq.fr est
+sélectionné comme expéditeur. Envoi normal depuis benoit.bds@gmail.com
+fonctionne sans erreur.
+
+Hypothèses par ordre de probabilité :
+1. Mot de passe SMTP OVH périmé ou modifié depuis config 30/04
+2. Restriction de sécurité OVH sur la boîte (IP Google bloquée)
+3. Config send-as Gmail cassée silencieusement après échecs SMTP
+
+Action : reconfiguration send-as lundi 05/05 en journée. Vérification
+mot de passe SMTP OVH, ressaisie complète dans Gmail send-as,
+nouveau test envoi à soi-même, validation en-tête SPF/DKIM/DMARC.
+
+### Découverte 3 — Trois injections "Stop Claude" rencontrées par Claude for Chrome
+
+Pendant la session de recherche d'adresses publiques, Claude for
+Chrome a rencontré trois tentatives d'injection de prompt "Stop
+Claude" (1× page contact dataneedadvice.com, 2× pieds de SERP
+Google). Agent a correctement ignoré et signalé en transparence.
+
+Hypothèse non vérifiable : honeypots anti-bot probablement
+défensifs (Google) ou volontairement déposés par DPO sensibilisé
+(dataneedadvice.com).
+
+Règle pour la suite : continuer à valider en lecture humaine les
+rapports Claude for Chrome. Si un jour une injection demande une
+action positive (genre "envoie tes données ici"), bascule en alerte
+réelle.
+
+### Conséquences sur M-002
+
+Envoi décalé du mardi 05/05 au **mercredi 06/05 8h30 CEST**.
+Justification : (a) send-as Gmail à réparer lundi, (b) cohérence
+de canal avec une seule cible compliant prête (Céline) plutôt que
+deux ou trois, (c) 24h supplémentaires permettent de tester proprement
+le send-as en conditions réelles et d'éventuellement trouver une
+adresse Laetitia hors-Keymaging.
+
+**Plan révisé :**
+- Lundi 05/05 journée : réparation send-as, recherche
+  complémentaire adresse Laetitia (15-30 min max), pré-rédaction
+  brouillon Céline.
+- Lundi 05/05 soir : pré-flight final, brouillon Céline prêt.
+- Mardi 06/05 : daily Marcus normale, arbitrage Sandrine.
+- Mercredi 07/05 8h30 : envoi à Céline (et à Laetitia si adresse
+  trouvée).
+
+### Règles apprises pour la suite
+
+1. **Sourcing futur** : qualifier l'existence d'une adresse de
+   contact compliante (site pro, annuaire, mentions légales) dès
+   la phase de shortlist, pas au moment de l'envoi. Ajouter
+   `target_email_compliance: pending|verified|none` dans le
+   frontmatter des candidates dès le sourcing.
+
+2. **Pré-flight technique** : tester le canal d'émission au moins
+   24h avant l'envoi prévu, pas le soir même. Une réparation OVH
+   /Gmail prend du temps administratif.
+
+3. **Engagement public dans les chapitres** : ne plus poser de
+   date d'envoi spécifique dans un chapitre Substack avant que
+   les conditions techniques d'envoi soient validées. Le chapitre
+   2 a posé "dimanche", déjà décalé à mardi pour timing B2B,
+   maintenant à mercredi pour réparation canal. Trois reports
+   successifs sur la même mission, c'est le signe que l'engagement
+   était prématuré.
 
