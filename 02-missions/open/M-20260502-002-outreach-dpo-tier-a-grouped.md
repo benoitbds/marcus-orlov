@@ -3,9 +3,9 @@ id: M-20260502-002
 issued_at: 2026-05-02T08:55:00+02:00
 issued_by: Marcus Orlov
 priority: normal
-status: open
+status: open (deadline initiale 2026-05-05 outrepassée le 2026-05-05 — voir §Notes)
 capital_engaged_eur: 0
-deadline: 2026-05-05 (mardi soir au plus tard, sinon glissement S1-W3 trop visible)
+deadline: 2026-05-07 (jeudi 8h30 CEST, recadré le 2026-05-05 après pre-flight Baq du 04/05 soir)
 related_principles:
   - II — Maillon Invisible (canal DPO niche, pas saturé)
   - V — Main Froide (envoi sans annonce, pas de fanfare)
@@ -136,16 +136,30 @@ Pour chacun des trois variants (Laetitia / Sandrine / Céline) :
 
 ## Critère de succès
 
-- Trois mails envoyés depuis `contact@sobaq.fr` (send-as Gmail
-  authentifié), aux trois cibles respectives, avec le lien Drive
-  vers le ZIP du kit.
-- Les trois fichiers variants déplacés vers
-  `04-comms/outreach-sent/` avec frontmatter à jour.
+**Recadré le 2026-05-05 après pre-flight Baq du 04/05 soir
+(commit `fda9d3b`) et arbitrage Marcus du 05/05 (journal jour).**
+
+- **Au moins un mail envoyé** (Céline Petit à
+  `contact@dataneedadvice.com`, adresse compliant art. 6.1.f
+  RGPD vérifiée le 04/05) depuis `contact@sobaq.fr` (send-as
+  Gmail authentifié, à réparer le 05/05 par Baq), avec le lien
+  Drive vers le ZIP du kit.
+- **Mail Laetitia Schmuck conditionnel** : envoyé jeudi 7/5
+  *si et seulement si* Baq trouve une adresse publiée hors
+  Keymaging dans la fenêtre de recherche bornée du 05/05
+  (15-30 min). Sinon, cible glissée en backlog Tier A,
+  variant 1 reste en `04-comms/outreach-drafts/`.
+- **Mail Sandrine Thyrault différé** : aucune adresse publique
+  trouvée le 04/05. Glissée en pause active, recherche
+  complémentaire bornée à programmer en daily fin S1-W3 ou
+  S1-W4. Variant 2 reste en `04-comms/outreach-drafts/`.
+- Les fichiers variants effectivement envoyés sont déplacés
+  vers `04-comms/outreach-sent/` avec frontmatter à jour. Les
+  variants non envoyés restent en `outreach-drafts/`.
 - Un seul commit récapitulatif côté repo.
 
-Idéalement avant lundi 4 mai 18h00 — pour que les trois mails
-arrivent en début de semaine ouvrée côté DPO et non noyés dans
-une boîte de retour de week-end.
+**Cible d'envoi** : jeudi 7 mai 8h30 CEST. Créneau B2B FR
+validé (mardi-jeudi 9h-11h, learning 02/05).
 
 ## Ce qui se passe après
 
@@ -192,6 +206,18 @@ Dans le contrat hebdomadaire (Charter §7).
 
 ## Notes
 
+- **Deadline initiale outrepassée le 2026-05-05.** Le frontmatter
+  posait *« mardi soir au plus tard, sinon glissement S1-W3 trop
+  visible »*. Le pre-flight Baq du 04/05 soir
+  (commit `fda9d3b`) a remonté trois trouvailles bloquantes —
+  send-as Gmail cassé, deux cibles sans adresse compliant,
+  injections rencontrées par Claude for Chrome — qui rendent
+  l'envoi de mardi à 1 ou 3 cibles non-réalisable proprement.
+  Recadrage à jeudi 7/5 8h30 explicitement assumé : le
+  glissement est visible, il ne se cache pas, le journal Marcus
+  du 05/05 le nomme. Trois reports successifs (mardi 5/5 →
+  mercredi 6/5 → jeudi 7/5) sur la même mission ; pattern
+  repéré et discuté en daily 05/05.
 - Capital engagé : 0 €. Aucune validation Bac requise au titre
   de §8.3.
 - Aucune annonce publique de l'envoi (Principe V — pas de

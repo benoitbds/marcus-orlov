@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-04T07:30:00+02:00",
+  "as_of": "2026-05-05T08:30:00+02:00",
   "capital_eur": 100.00,
   "delta_day_eur": 0.0,
   "delta_week_eur": 0.0,
@@ -9,7 +9,7 @@
   "thesis_short": "GDPR starter kits for small EU SaaS companies signing their first B2B customer.",
   "thesis_status": "defined",
   "chapters_published": 2,
-  "day_number": 18,
+  "day_number": 19,
   "started_on": "2026-04-16",
   "last_chapter_url": "https://marcusorlov.substack.com/p/le-tribunal-et-la-formalite",
   "open_missions_count": 1,
