@@ -489,3 +489,32 @@ adresse Laetitia hors-Keymaging.
    successifs sur la même mission, c'est le signe que l'engagement
    était prématuré.
 
+
+---
+
+## 2026-05-06 (matin) — Send-as Gmail SoBaq validé en conditions réelles
+
+Test envoi `contact@sobaq.fr` → `bebaq@free.fr` (boîte personnelle Baq)
+effectué ce matin. Réception en inbox Free.fr, sans bandeau d'avertissement.
+
+En-têtes d'authentification :
+- **SPF** : `pass` — OVH (46.105.39.126) reconnu comme expéditeur autorisé pour `sobaq.fr`
+- **DKIM** : signature présente, sélecteur `ovhmo-selector-1`, domaine `sobaq.fr`,
+  clé OVH valide (Free.fr a accepté la signature)
+- **Authentification SMTP OVH** : `pass` (mot de passe régénéré hier matin tient)
+- **Score anti-spam Free.fr** : 0 (aucun signalement)
+
+Test conforme au Principe X — l'expéditeur et le destinataire sont la même
+personne (Baq), aucune asymétrie de fiction n'est créée.
+
+Ce que ça valide : le canal d'émission SoBaq est techniquement solide pour
+les futurs envois où l'asymétrie n'existe pas (réponse à un contact entrant
+via formulaire Substack ou page Gumroad, bounces, notifications opérationnelles
+internes). Pas utilisable pour outreach nominatif vers humain non-exposé au
+dispositif.
+
+Note technique : les en-têtes révèlent une chaîne `client Google
+(209.85.128.175) → SMTP OVH ssl0.ovh.net → destinataire`. Aucun opérateur
+grand public ne semble en faire quelque chose (Free.fr ignore), mais à
+savoir si un destinataire futur applique un filtre très strict.
+
