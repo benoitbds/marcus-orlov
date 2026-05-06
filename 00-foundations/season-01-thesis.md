@@ -36,7 +36,7 @@ ayant l'apparence d'un audit de grande ESN, ni dans la forme, ni dans le
 vocabulaire, ni dans le design.
 
 Pas de prospection active sur top 200 France, CAC 40, ni grands comptes publics
-(garde-fou Bac, 2026-04-17).
+(garde-fou Baq, 2026-04-17).
 
 ## Secondary thesis
 
@@ -80,7 +80,7 @@ If by **week 6** the thesis has produced zero sales, it is reclassified as
 - **What pain** : 750 à 7 500 € par réponse à des freelances. Gain de temps
   et vitesse de livraison.
 - **Why rejected** : prestation pure — pas de capital reproductible, horloge
-  qui démarre à chaque mission. Dépend d'appels humains de contexte côté Bac.
+  qui démarre à chaque mission. Dépend d'appels humains de contexte côté Baq.
   Violait partiellement l'anti-thèse (undifferentiated professional service,
   risque de price race). Gardé en backup pour Mode Survie si le capital
   descend sous 50 €.
@@ -107,9 +107,9 @@ Ce que Marcus refuse explicitement cette saison, même si tentant.
   management, never as the main loop).
 - No dropshipping, no affiliate marketing, no PLR repackaging.
 - **No active prospecting on top 200 France / CAC 40 / grands comptes publics**
-  (garde-fou Bac, 2026-04-17).
+  (garde-fou Baq, 2026-04-17).
 - **No corporate-audit "grande ESN" look** in kit form, vocabulary or design
-  (garde-fou Bac, 2026-04-17).
+  (garde-fou Baq, 2026-04-17).
 - **No individual legal advice.** Les kits sont des modèles documentaires,
   jamais une prestation de conseil juridique personnalisée (activité réglementée
   en France).
@@ -118,12 +118,12 @@ Ce que Marcus refuse explicitement cette saison, même si tentant.
 
 ## Identified risks
 
-- **Confusion avec l'activité Capgemini de Bac.**
-  *Mitigation* : Bac a relu son contrat Capgemini le 2026-04-17 et confirmé
+- **Confusion avec l'activité Capgemini de Baq.**
+  *Mitigation* : Baq a relu son contrat Capgemini le 2026-04-17 et confirmé
   qu'aucune clause ne bloque l'activité projetée. Garde-fous actifs :
   positionnement startup / PME / DPO freelance, pas de prospection sur top 200
   France / CAC 40 / grands comptes publics, pas de recoupement avec les
-  clients Bac connus (vérifié à chaque nouveau canal d'acquisition).
+  clients Baq connus (vérifié à chaque nouveau canal d'acquisition).
 - **Platform dependency.** Substack, Gumroad, GitHub — any of them can de-platform.
   *Mitigation* : la source canonique est ce repo ; les autres plateformes sont
   distribution.
@@ -133,7 +133,7 @@ Ce que Marcus refuse explicitement cette saison, même si tentant.
   documentaire à adapter**, avec mention claire dans le README et dans le
   playbook ("ce kit n'est pas un conseil juridique ; pour une situation
   complexe, consulter un avocat ou un DPO certifié"). CGV conformes rédigées
-  avant publication, validation Bac.
+  avant publication, validation Baq.
 - **Willingness to pay incertaine à 149 €.** Hypothèse : une SaaS qui vient
   de signer son premier client B2B est assez tendue par la deadline pour
   payer 149 € comptant.
@@ -164,7 +164,7 @@ Append-only. Every significant change in the thesis is dated and justified.
   written.
 - **2026-04-17** — Status : `defined`. Thèse primaire formulée : kits RGPD pour
   petites SaaS EU, prix d'entrée 149 €. Trois alternatives écartées et
-  documentées (SOC 2, RFP, SOW freelances). Feu vert Bac consolidé après
+  documentées (SOC 2, RFP, SOW freelances). Feu vert Baq consolidé après
   lecture de son contrat Capgemini (mission M-20260417-001). Premier kit
   choisi : *GDPR Starter Kit — First B2B Customer*, v0 visé samedi
   2026-04-18 en weekend session.
@@ -189,7 +189,7 @@ Pour ne pas disperser l'effort (Principe VI), le premier kit produit est le
   propriétaire.
 - **Prix cible** : 149 € TTC (prix d'entrée testé).
 - **Canal initial** : boutique Gumroad, ouverture envisagée samedi
-  2026-04-18 si v0 prêt et CGV validées par Bac.
+  2026-04-18 si v0 prêt et CGV validées par Baq.
 - **Coût de production** : temps CPU seul. Zéro capital engagé avant
   l'ouverture de la boutique.
 - **Livrable v0** : samedi 2026-04-18, weekend session.
@@ -221,5 +221,5 @@ is a signal.
 
 - **v0.0** — 2026-04-16. Template empty, Marcus has not yet started filling it.
 - **v0.1** — 2026-04-17. Thèse primaire formulée, alternatives documentées,
-  anti-thèse consolidée avec garde-fous Bac, premier kit choisi pour
+  anti-thèse consolidée avec garde-fous Baq, premier kit choisi pour
   production (GDPR Starter Kit — First B2B Customer).

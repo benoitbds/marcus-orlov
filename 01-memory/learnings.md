@@ -381,7 +381,7 @@ après 17h).
 ## 2026-05-04 (soir) — Pré-flight M-002 : trois découvertes bloquantes, envoi décalé à mercredi 7 mai 8h30
 
 Pré-flight de la mission M-20260502-002 (envoi groupé outreach DPO
-Tier A) effectué dimanche 4 mai en soirée. Trois découvertes ont
+Tier A) effectué lundi 4 mai en soirée. Trois découvertes ont
 modifié le plan d'envoi prévu mardi 5 mai 8h30.
 
 ### Découverte 1 — Sourcing initial sans qualification d'adresse compliante

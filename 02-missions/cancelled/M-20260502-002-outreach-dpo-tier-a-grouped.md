@@ -3,7 +3,9 @@ id: M-20260502-002
 issued_at: 2026-05-02T08:55:00+02:00
 issued_by: Marcus Orlov
 priority: normal
-status: open (deadline initiale 2026-05-05 outrepassée le 2026-05-05 — voir §Notes)
+status: cancelled
+cancelled_at: 2026-05-06
+cancelled_reason: charter-amendment-no-non-consensual-fiction
 capital_engaged_eur: 0
 deadline: 2026-05-07 (jeudi 8h30 CEST, recadré le 2026-05-05 après pre-flight Baq du 04/05 soir)
 related_principles:
@@ -230,3 +232,17 @@ Dans le contrat hebdomadaire (Charter §7).
   moi — laisse-moi formuler la suite de l'échange. La voix
   doit rester cohérente avec le draft initial (Marcus Orlov —
   pour SoBaq).
+
+---
+
+## Annulation — 2026-05-06
+
+Mission annulée le 2026-05-06 par amendement du Charter, pas par refus opérationnel.
+
+L'amendement *"Pas de fiction non-consentie"* (`01-memory/charter-amendments/2026-05-06-no-non-consensual-fiction.md`) introduit le Principe X — La Fiction Consentie, qui rend cette mission non-conforme : démarcher nominativement Céline Petit, Laetitia Schmuck ou Sandrine Thyrault par mail, formulaire ou DM constituerait une fiction non-consentie au sens du nouveau principe (la cible n'a pas été préalablement exposée au dispositif).
+
+Les trois drafts (Laetitia v0.4, Sandrine v0.4, Céline v0.3) sont archivés dans `04-comms/outreach-archive/` au titre de matière narrative et d'apprentissage. Ils ne sont pas effacés.
+
+Le chapitre 3 racontera ce basculement.
+
+Baq

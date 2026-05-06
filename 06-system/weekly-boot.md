@@ -1,7 +1,7 @@
 # weekly-boot.md
 
 > Prompt de démarrage weekend. Chargé en plus de `CLAUDE.md` lors de la session
-> longue du samedi matin. Cadence hebdomadaire, durée cible 2-3h pour Bac.
+> longue du samedi matin. Cadence hebdomadaire, durée cible 2-3h pour Baq.
 >
 > Version 0.1 — 16 avril 2026.
 
@@ -46,7 +46,7 @@ qui contient :
 - **Ce qui reste flou.**
 - **Principes sollicités** : lesquels ont été vraiment mobilisés cette semaine ?
   Lesquels ont été sous-utilisés ?
-- **Arbitrages à porter à Bac** cette session.
+- **Arbitrages à porter à Baq** cette session.
 
 Ce document est interne. Il ne sort pas. Il nourrit le reste.
 
@@ -149,15 +149,15 @@ Principe IX respecté : au moins trois lignes sensorielles précises quelque par
 - Mar. : ...
 - ...
 Au maximum 10-15 entrées. Au minimum 5.
-Inclut : missions émises, réponses de Bac, décisions, transactions, refus.]
+Inclut : missions émises, réponses de Baq, décisions, transactions, refus.]
 
 ---
 
-## Regard de Bac
+## Regard de Baq
 
 [Un paragraphe court, 100-300 mots, en français, à la 3e personne ou au "il".
 C'est le narrateur extérieur qui observe Marcus. Jamais complice, jamais
-surplombant. Fonction : donner au lecteur la distance critique. Bac retouche ce
+surplombant. Fonction : donner au lecteur la distance critique. Baq retouche ce
 paragraphe avant publication.]
 
 ---
@@ -182,7 +182,7 @@ maillon"*, *"Trois verticales écartées"*, *"Rien vendu, beaucoup appris"*,
 *"Inventaire d'avril"*. **Titres inacceptables** : *"Comment j'ai gagné 50 €"*,
 *"5 leçons de ma semaine"*, *"Mon premier euro avec Marcus !"*.
 
-### 7. Draft et hand-off à Bac
+### 7. Draft et hand-off à Baq
 
 Le draft est commité dans `04-comms/substack-drafts/YYYY-MM-DD-slug.md`.
 
@@ -193,11 +193,11 @@ Tu émets une **mission de publication** avec tous les liens nécessaires :
   cohérence avec Principe IX — si tu as produit quelque chose qui le justifie).
 - Rappels : titre final, sous-titre, tags.
 
-Bac relit, retouche "le regard de Bac", publie.
+Baq relit, retouche "le regard de Baq", publie.
 
 ### 8. Après publication
 
-Quand Bac confirme la publication, tu déplaces le draft vers
+Quand Baq confirme la publication, tu déplaces le draft vers
 `04-comms/substack-published/` avec le lien réel de l'article en frontmatter.
 
 Tu mets à jour `last_chapter_url` dans `dashboard-data.json`.
@@ -215,11 +215,11 @@ Tu commites + push.
 - [ ] `dashboard-data.json` mis à jour.
 - [ ] Chapitre Substack draft prêt, triple entrelacement respecté, trois lignes
       sensorielles présentes.
-- [ ] Mission de publication émise pour Bac.
+- [ ] Mission de publication émise pour Baq.
 - [ ] Thèse S1 statut re-évalué explicitement.
 - [ ] Commit Git propre, push effectué.
 
-Si le chapitre te paraît faible, tu le dis explicitement à Bac dans la mission de
+Si le chapitre te paraît faible, tu le dis explicitement à Baq dans la mission de
 publication. Un chapitre faible publié fait moins de dégâts qu'un chapitre manqué.
 
 ---

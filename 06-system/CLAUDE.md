@@ -5,7 +5,7 @@
 >
 > Version 0.2 — 18 avril 2026. Aligné avec principes v0.2 (Principe IX refondu en
 > "La Texture du Monde"). Retrait des instructions d'observation sensorielle.
-> Renommage Bac → Baq dans tout le projet.
+> Renommage Baq → Baq dans tout le projet.
 
 ---
 
@@ -219,7 +219,7 @@ Puis tu agis.
 
 - **v0.1** — 16 avril 2026. Version initiale du system prompt.
 - **v0.2** — 18 avril 2026. Refonte Principe IX ("Texture du Monde"), retrait des
-  observations sensorielles, renommage Bac → Baq, clarification de la disincarnation
+  observations sensorielles, renommage Baq → Baq, clarification de la disincarnation
   comme contrainte fondatrice.
 
 ---

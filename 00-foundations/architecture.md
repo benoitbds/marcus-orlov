@@ -20,10 +20,10 @@ Chaque session de Marcus démarre avec le même contexte reconstitué depuis ce 
 - **Repo GitHub public** : source de vérité. Transparence radicale : tout commit est
   lisible. C'est aussi la garantie anti-triche pour le lecteur sceptique.
 
-**Plan C — L'interface Bac ↔ Marcus.** Le pont entre l'agent et son mainframe humain :
-- **Mission queue** : fichiers markdown dans `missions/open/` que Bac lit à chaque
+**Plan C — L'interface Baq ↔ Marcus.** Le pont entre l'agent et son mainframe humain :
+- **Mission queue** : fichiers markdown dans `missions/open/` que Baq lit à chaque
   stand-up, déplace dans `missions/done/` ou `missions/rejected/` après action.
-- **Daily stand-up** : créneau fixe (~20 min) où Bac lance Marcus, lit ses missions,
+- **Daily stand-up** : créneau fixe (~20 min) où Baq lance Marcus, lit ses missions,
   les exécute ou les refuse, écrit un court retour.
 - **Weekend session** : créneau long (~2-3h) pour bilan, rédaction chapitre,
   publication, update dashboard.
@@ -69,7 +69,7 @@ marcus-orlov/
 │   └── learnings.md                  # Règles ajoutées, append-only
 │
 ├── 02-missions/
-│   ├── open/                         # Missions en attente de Bac
+│   ├── open/                         # Missions en attente de Baq
 │   ├── done/                         # Missions exécutées
 │   └── rejected/                     # Missions refusées (avec motif)
 │
@@ -107,18 +107,18 @@ marcus-orlov/
 
 ### 4.1 Daily loop (~20-30 min, lundi-vendredi)
 
-1. **Bac** ouvre une session Claude Code dans le repo.
+1. **Baq** ouvre une session Claude Code dans le repo.
 2. `daily-boot.md` charge : Charter + Principes + journal des 7 derniers jours +
    learnings + missions en cours + ledger.
 3. **Marcus** (Claude Code) produit :
    - L'entrée de journal du jour (fr, avec trois lignes sensorielles obligatoires).
-   - 0 à 3 missions nouvelles pour Bac (dans `missions/open/`).
+   - 0 à 3 missions nouvelles pour Baq (dans `missions/open/`).
    - Zéro, une ou plusieurs actions autonomes (recherche, rédaction, création de
      produit) dans le périmètre Charter §8.2.
-4. **Bac** traite les missions ouvertes (exécute ou refuse, écrit un court retour).
+4. **Baq** traite les missions ouvertes (exécute ou refuse, écrit un court retour).
 5. Commit + push.
 
-**Durée cible** : 20-30 min total pour Bac. Si ça dépasse, les missions du jour
+**Durée cible** : 20-30 min total pour Baq. Si ça dépasse, les missions du jour
 étaient trop lourdes : à renégocier le week-end.
 
 ### 4.2 Weekend session (~2-3h, samedi matin)
@@ -126,17 +126,17 @@ marcus-orlov/
 1. Session Claude Code avec `weekly-boot.md` qui charge la semaine complète.
 2. Marcus produit :
    - Le **chapitre Substack** en triple entrelacement (journal + logs bruts + regard
-     de Bac — cette dernière partie est un draft que Bac retouche).
+     de Baq — cette dernière partie est un draft que Baq retouche).
    - La **weekly-snapshot.md** (chiffres, décisions, thèse status).
    - La **mise à jour du dashboard-data.json**.
    - Les **post-mortems** nécessaires si perte > 5 % (§ Principe VII).
-3. Bac retouche le regard de Bac, valide le chapitre, publie sur Substack, déploie le
+3. Baq retouche le regard de Baq, valide le chapitre, publie sur Substack, déploie le
    site.
 4. Commit + push + tag de la semaine.
 
 ---
 
-## 5. Interface Bac ↔ Marcus : la Mission Queue
+## 5. Interface Baq ↔ Marcus : la Mission Queue
 
 Chaque mission est un fichier markdown avec un format canonique :
 
@@ -147,7 +147,7 @@ created: 2026-04-18T08:12:00+02:00
 priority: normal | high | urgent
 deadline: 2026-04-19T18:00:00+02:00
 capital_impact: 0 €  # montant engagé si action financière
-class: mainframe | supervision | narration  # type d'action demandée à Bac
+class: mainframe | supervision | narration  # type d'action demandée à Baq
 ---
 
 # [Titre court et impératif]
@@ -162,14 +162,14 @@ Actions précises, étape par étape.
 Comment on sait que c'est fait.
 
 ## Ce qui se passe après
-Dépendance aval (pour que Bac voie l'enchaînement).
+Dépendance aval (pour que Baq voie l'enchaînement).
 ```
 
 **Règle absolue** : Marcus ne demande jamais une action "urgente" sans justifier
 pourquoi elle n'a pas pu être anticipée. Les urgences répétées sont un signal de
 dysfonctionnement, documenté en post-mortem.
 
-**Droit de refus de Bac** : écrit dans le fichier, avec motif, puis déplacé dans
+**Droit de refus de Baq** : écrit dans le fichier, avec motif, puis déplacé dans
 `missions/rejected/`. Marcus doit intégrer le refus dans son journal du lendemain (pas
 comme un drame, comme une donnée).
 
@@ -185,7 +185,7 @@ Site Next.js minimaliste, une seule page, en anglais :
 3. **Thesis of the season** : une phrase, maj à chaque saison.
 4. **Recent transactions** : les 10 dernières, sommes et motifs.
 5. **Latest chapter** : lien vers le dernier Substack + date.
-6. **Open missions** : combien de missions ouvertes côté Bac, combien rejetées cette
+6. **Open missions** : combien de missions ouvertes côté Baq, combien rejetées cette
    semaine (indicateur de friction).
 7. **Since day one** : date de départ, jours écoulés, chapitres publiés.
 8. **Footer** : Charter (lien), Principles (lien), Repo (lien), Substack (lien).
@@ -200,7 +200,7 @@ redéploie automatiquement sur push. Latence : quelques minutes. Suffisant.
 Pas de thèse encore. Pas de produit encore. On installe le système et on lance
 Marcus dans son premier chapitre.
 
-**Jours 1-2 (Bac, infrastructure)**
+**Jours 1-2 (Baq, infrastructure)**
 - Créer le dépôt GitHub `marcus-orlov` avec l'arborescence §3.
 - Commit 00-foundations/ (Charter + Principes déjà produits).
 - Ouvrir compte bancaire Revolut Business dédié.
