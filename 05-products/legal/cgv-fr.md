@@ -1,10 +1,15 @@
 # Conditions Générales de Vente — SoBaq
 
-> **Statut** : v0.1, 2026-04-27. Mentions légales en placeholders
-> (`[À COMPLÉTER — SIRET]`, `[À COMPLÉTER — RCS]`, etc.) en attente
-> de réception des identifiants SoBaq par Baq (dossier INPI
-> J00236822078, déposé 2026-04-23). Document à valider par Baq avant
-> publication. Aucune mise en ligne avant remplissage des placeholders.
+> **Statut** : v0.2, 2026-05-07. Adaptation au régime libéral non
+> réglementé (BNC, micro-BNC) suite à requalification INSEE/INPI
+> de l'activité (formalité v2 validée 2026-04-30, SIRET
+> 10437881500013 attribué). Mentions légales structurelles
+> renseignées (titulaire, siège, SIRET, code APE 5814Z, courriel,
+> retrait RCS, tribunal judiciaire). Trois placeholders subsistent
+> (URL boutique Gumroad, URL politique de confidentialité,
+> médiateur de la consommation) — ils dépendent d'arbitrages encore
+> à mener. Document à valider par Baq avant publication. Aucune
+> mise en ligne avant remplissage des placeholders restants.
 
 ---
 
@@ -34,17 +39,26 @@ L. 111-1 du Code de la consommation, le Vendeur est identifié comme
 suit :
 
 - **Dénomination** : SoBaq
-- **Forme juridique** : entreprise individuelle (micro-entreprise)
-- **Titulaire** : `[À COMPLÉTER — Prénom NOM exploitant]`
-- **Adresse du siège** : `[À COMPLÉTER — siège SoBaq, Nantes]`
-- **SIRET** : `[À COMPLÉTER — SIRET, dossier INPI J00236822078]`
-- **RCS** : `[À COMPLÉTER — RCS Nantes n°]`
-- **Code APE / NAF** : `[À COMPLÉTER — attendu 58.19Z]`
+- **Forme juridique** : entreprise individuelle exerçant en
+  libéral, soumise au régime de la micro-entreprise (micro-BNC)
+- **Activité** : libérale non réglementée — édition de contenus
+  numériques
+- **Titulaire** : Benoit Baqué de Sariac
+- **Adresse du siège** : 1 rue Émile Péhant, 44000 Nantes, France
+- **SIRET** : 10437881500013
+- **Code APE / NAF** : 5814Z — Édition de revues et périodiques
+- **Inscription RNE** : Registre National des Entreprises, 30 avril
+  2026
 - **TVA intracommunautaire** : non applicable, article 293 B du Code
   général des impôts (franchise en base de TVA)
-- **Courriel de contact** : `[À COMPLÉTER — adresse mail]`
+- **Courriel de contact** : `contact@sobaq.fr`
 - **Hébergement du site de vente** : Gumroad, Inc., 548 Market St
   PMB 65196, San Francisco, CA 94104-5401, USA — `gumroad.com`
+
+Le Vendeur exerce une **activité libérale non réglementée**. Il
+**n'est pas inscrit au Registre du Commerce et des Sociétés**, le
+régime applicable aux entrepreneurs individuels exerçant une
+profession non commerciale ne le prévoyant pas.
 
 Le Vendeur n'est **pas** inscrit à l'Ordre des avocats. Il n'exerce
 aucune activité de conseil juridique au sens de la loi n° 71-1130
@@ -516,9 +530,11 @@ articles 42 et 46 du Code de procédure civile :
   juridiction du lieu où il demeurait au moment de la conclusion du
   contrat ou de la survenance du fait dommageable, soit la
   juridiction du lieu du siège du Vendeur.
-- **Acheteur Professionnel** : les litiges relèvent de la
-  compétence exclusive du tribunal de commerce du siège du
-  Vendeur, sauf disposition impérative contraire.
+- **Acheteur Professionnel** : le Vendeur exerçant une activité
+  libérale non commerciale, les litiges relèvent de la compétence
+  du **tribunal judiciaire** du siège du Vendeur, sauf disposition
+  impérative contraire. Le tribunal de commerce n'est pas compétent
+  à raison de la qualité non commerçante du Vendeur.
 
 ---
 
@@ -564,22 +580,36 @@ traduction, seule la version française fait foi.
 
 ---
 
-## Annexe — Mentions à compléter dès réception du SIRET
+## Annexe — Mentions à compléter
 
-Liste consolidée des placeholders à remplir avant la première mise
-en ligne. À traiter en mission Baq dès réception des identifiants
-SoBaq (sortie INSEE et inscription RCS Nantes).
+### Mentions structurelles renseignées en v0.2 (2026-05-07)
 
-| Article | Mention | Source |
+| Article | Mention | Valeur |
 |---|---|---|
-| 1 | Titulaire (prénom, nom) | déclaration INPI |
-| 1 | Adresse du siège | déclaration INPI |
-| 1 | SIRET | sortie INSEE |
-| 1 | RCS Nantes | inscription RCS |
-| 1 | Code APE / NAF | sortie INSEE (attendu 58.19Z) |
-| 1 | Courriel de contact | adresse pro à créer ou réutiliser |
-| 2 | URL boutique | URL publique Gumroad SoBaq |
-| 13 | URL politique de confidentialité | hébergement à choisir |
+| 1 | Forme juridique | entreprise individuelle libérale (micro-BNC) |
+| 1 | Titulaire | Benoit Baqué de Sariac |
+| 1 | Adresse du siège | 1 rue Émile Péhant, 44000 Nantes |
+| 1 | SIRET | 10437881500013 |
+| 1 | Code APE / NAF | 5814Z — Édition de revues et périodiques |
+| 1 | Inscription RNE | 30 avril 2026 |
+| 1 | Courriel de contact | contact@sobaq.fr |
+| 16.2 | Tribunal compétent (B2B) | tribunal judiciaire du siège (substitution du tribunal de commerce) |
+
+### Mentions retirées en v0.2
+
+- **RCS Nantes** : retiré. Le Vendeur exerce une activité libérale
+  non commerciale et n'est pas inscrit au RCS. La précision figure
+  désormais à l'article 1 in fine.
+
+### Mentions restantes à compléter
+
+À traiter avant la première mise en ligne — chacune dépend d'un
+arbitrage encore à mener.
+
+| Article | Mention | Décision attendue |
+|---|---|---|
+| 2 | URL boutique | URL publique Gumroad SoBaq, après ouverture de la boutique |
+| 13 | URL politique de confidentialité | hébergement à choisir (page Gumroad ou page sobaq.fr) |
 | 15 | Médiateur de la consommation | adhésion à choisir parmi la liste CECMC |
 
 ---
@@ -590,3 +620,22 @@ SoBaq (sortie INSEE et inscription RCS Nantes).
   placeholders en attente du SIRET (dossier INPI J00236822078,
   déposé 2026-04-23). Aucune mise en ligne avant remplissage des
   placeholders et validation de Baq.
+- **v0.2** — 2026-05-07. Adaptation au régime libéral non
+  réglementé (BNC, micro-BNC) suite à requalification INSEE/INPI
+  de l'activité (formalité v1 J00236822078 refusée par le greffe
+  RCS Nantes le 27/04 ; formalité v2 J00237943824 validée par
+  URSSAF Bretagne le 30/04, SIRET 10437881500013 attribué).
+  Modifications structurelles :
+  - **Article 1** : forme juridique précisée (« libéral, micro-BNC »),
+    titulaire / siège / SIRET / code APE 5814Z / courriel renseignés,
+    mention RCS retirée et remplacée par une précision sur la
+    nature non commerçante de l'activité, mention RNE ajoutée.
+  - **Article 16.2** : tribunal compétent pour les Acheteurs
+    Professionnels substitué — tribunal judiciaire du siège du
+    Vendeur (au lieu du tribunal de commerce), motivé par la
+    qualité non commerçante du Vendeur.
+  - **Annexe** : refondue en trois sections (mentions renseignées,
+    mentions retirées, mentions restantes).
+  Trois placeholders subsistent : URL boutique, URL politique de
+  confidentialité, médiateur de la consommation. Document à valider
+  par Baq avant publication.
