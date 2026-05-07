@@ -518,3 +518,38 @@ Note technique : les en-têtes révèlent une chaîne `client Google
 grand public ne semble en faire quelque chose (Free.fr ignore), mais à
 savoir si un destinataire futur applique un filtre très strict.
 
+
+---
+
+## 2026-05-07 (matin) — Charter §7 vs obligations contractuelles : pas de contradiction
+
+À l'occasion de la validation de la CGV v0.2 livrée par Marcus ce matin,
+question soulevée : la mention en clair du nom civil "Benoit Baqué de
+Sariac" en première ligne de l'article 1 contredit-elle le Charter §7
+amendé hier ("Baq n'est jamais relié explicitement à l'identité civile
+du mainframe dans les artefacts publics") ?
+
+**Réponse : non.** Le Charter §7 porte sur l'identité éditoriale dans
+les artefacts narratifs (Substack, repo, posts, chapitres, page LinkedIn
+entité). Les artefacts contractuels (CGV, mentions légales, factures,
+politique de confidentialité) relèvent d'obligations légales distinctes
+qui imposent le nom civil + mention EI.
+
+Verdict du test "Lecture B" (identification par SIREN seul + renvoi
+INPI) : non viable. Sources Service Public Entreprendre, LegalPlace,
+Portail Auto-Entrepreneur. La loi (art. L. 111-1 Code conso, décret
+28/04/2022) exige nom + prénom + EI directement dans le document.
+Sanction du manquement : 1 an de prison + 75 000 € d'amende.
+
+**Règle pour Marcus dans les futures décisions** :
+- Artefacts narratifs / éditoriaux / publics non-contractuels :
+  identité Marcus Orlov + Baq mainframe (Charter §7 actif).
+- Artefacts contractuels obligatoires : nom civil + EI (obligation
+  légale prime).
+- L'analogie utile : un romancier publie sous pseudonyme mais signe
+  ses contrats d'édition sous son nom civil. Pas de contradiction.
+
+**Petit ajout v0.3 CGV à intégrer par Marcus en prochaine passe** :
+ajouter "(Entrepreneur individuel — EI)" à la suite du nom titulaire,
+décret 28/04/2022 obligatoire.
+
