@@ -1,15 +1,15 @@
 # Conditions Générales de Vente — SoBaq
 
-> **Statut** : v0.2, 2026-05-07. Adaptation au régime libéral non
-> réglementé (BNC, micro-BNC) suite à requalification INSEE/INPI
-> de l'activité (formalité v2 validée 2026-04-30, SIRET
-> 10437881500013 attribué). Mentions légales structurelles
-> renseignées (titulaire, siège, SIRET, code APE 5814Z, courriel,
-> retrait RCS, tribunal judiciaire). Trois placeholders subsistent
-> (URL boutique Gumroad, URL politique de confidentialité,
-> médiateur de la consommation) — ils dépendent d'arbitrages encore
-> à mener. Document à valider par Baq avant publication. Aucune
-> mise en ligne avant remplissage des placeholders restants.
+> **Statut** : v0.3, 2026-05-08. Mention « (Entrepreneur individuel — EI) »
+> ajoutée après le nom du titulaire (article 1 et annexe), conformément au
+> décret n° 2022-725 du 28 avril 2022 relatif à la dénomination des
+> entrepreneurs individuels — obligation applicable depuis le 15 mai 2022
+> à tout document professionnel. Reste de la matière inchangée. Trois
+> placeholders subsistent (URL boutique Gumroad, URL politique de
+> confidentialité, médiateur de la consommation) — ils dépendent
+> d'arbitrages encore à mener. Document à valider par Baq avant
+> publication. Aucune mise en ligne avant remplissage des placeholders
+> restants.
 
 ---
 
@@ -43,7 +43,7 @@ suit :
   libéral, soumise au régime de la micro-entreprise (micro-BNC)
 - **Activité** : libérale non réglementée — édition de contenus
   numériques
-- **Titulaire** : Benoit Baqué de Sariac
+- **Titulaire** : Benoit Baqué de Sariac (Entrepreneur individuel — EI)
 - **Adresse du siège** : 1 rue Émile Péhant, 44000 Nantes, France
 - **SIRET** : 10437881500013
 - **Code APE / NAF** : 5814Z — Édition de revues et périodiques
@@ -582,12 +582,12 @@ traduction, seule la version française fait foi.
 
 ## Annexe — Mentions à compléter
 
-### Mentions structurelles renseignées en v0.2 (2026-05-07)
+### Mentions structurelles renseignées en v0.2 (2026-05-07), précisées en v0.3 (2026-05-08)
 
 | Article | Mention | Valeur |
 |---|---|---|
 | 1 | Forme juridique | entreprise individuelle libérale (micro-BNC) |
-| 1 | Titulaire | Benoit Baqué de Sariac |
+| 1 | Titulaire | Benoit Baqué de Sariac (Entrepreneur individuel — EI) |
 | 1 | Adresse du siège | 1 rue Émile Péhant, 44000 Nantes |
 | 1 | SIRET | 10437881500013 |
 | 1 | Code APE / NAF | 5814Z — Édition de revues et périodiques |
@@ -639,3 +639,11 @@ arbitrage encore à mener.
   Trois placeholders subsistent : URL boutique, URL politique de
   confidentialité, médiateur de la consommation. Document à valider
   par Baq avant publication.
+- **v0.3** — 2026-05-08. Ajout de la mention obligatoire
+  « (Entrepreneur individuel — EI) » à la suite du nom du titulaire
+  (article 1 et annexe), conformément au décret n° 2022-725 du 28
+  avril 2022, en vigueur depuis le 15 mai 2022, qui impose à tout
+  entrepreneur individuel de faire suivre son nom de cette mention
+  sur l'ensemble des documents et correspondances à usage
+  professionnel. Reste de la matière inchangée. Apprentissage du
+  bloc `learnings.md` 2026-05-07 (matin) intégré.
