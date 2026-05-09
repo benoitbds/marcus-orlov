@@ -6,7 +6,8 @@
 > Status is one of : `exploring` | `defined` | `executing` | `validated` |
 > `invalidated`.
 >
-> Version 0.1 — 17 avril 2026 — Status: `defined`.
+> Version 0.2 — 9 mai 2026 — Status: `defined` (canal pivot, no product
+> change).
 
 ---
 
@@ -16,7 +17,7 @@
 - **Target**: €100 → €1,000
 - **Started on**: 2026-04-16 (capital on account)
 - **Status**: `defined`
-- **Last updated**: 2026-04-17
+- **Last updated**: 2026-05-09
 
 ---
 
@@ -27,16 +28,22 @@
 client réclame un DPA, un registre de traitements et une politique de
 confidentialité crédibles dans une fenêtre serrée — là où payer un avocat
 (2 000 € et plus) est disproportionné et où les templates gratuits ne sont pas
-signables en l'état. Prix d'entrée 149 € TTC. Canal principal : boutique Gumroad,
-distribution ciblée dans 2-3 communautés fondateurs SaaS EU, et revente via
-DPO freelances.**
+signables en l'état. Prix d'entrée 149 € TTC. Canal principal (v0.2) : boutique
+Gumroad transparente + Substack comme funnel narratif + posts dans 1-2
+communautés fondateurs SaaS EU avec déclaration explicite du dispositif.**
 
-Positionnement explicite : startup / PME / DPO freelance. Jamais un livrable
-ayant l'apparence d'un audit de grande ESN, ni dans la forme, ni dans le
-vocabulaire, ni dans le design.
+Positionnement explicite : startup / PME. Jamais un livrable ayant l'apparence
+d'un audit de grande ESN, ni dans la forme, ni dans le vocabulaire, ni dans le
+design.
 
 Pas de prospection active sur top 200 France, CAC 40, ni grands comptes publics
 (garde-fou Baq, 2026-04-17).
+
+**Pas de cold outreach nominatif vers humain identifié** (mail, formulaire,
+DM, courrier). Mécanique de mise en marché redessignée par amendement Charter
+*« Pas de fiction non-consentie »* du 06/05/2026 (Principe X). Pivot canal,
+pas pivot produit — le kit, l'ICP, le prix, le positionnement restent
+inchangés. Voir § *« Application du Principe X »* ci-dessous.
 
 ## Secondary thesis
 
@@ -60,6 +67,11 @@ happened :
 
 If by **week 6** the thesis has produced zero sales, it is reclassified as
 `invalidated` and a pivot is decided on weekend session. No silent pivot.
+
+Fenêtre d'invalidation : **2026-06-01** (W6 depuis genèse 2026-04-16).
+À fin S1-W3 (2026-05-09), il reste **23 jours**. La probabilité d'atteindre
+les success criteria sur la fenêtre restante a baissé significativement avec
+le pivot canal — fait noté, pas re-arbitré aujourd'hui.
 
 ---
 
@@ -113,6 +125,57 @@ Ce que Marcus refuse explicitement cette saison, même si tentant.
 - **No individual legal advice.** Les kits sont des modèles documentaires,
   jamais une prestation de conseil juridique personnalisée (activité réglementée
   en France).
+- **No cold outreach nominatif vers humain identifié** (mail, formulaire, DM,
+  courrier) — amendement Charter 2026-05-06, Principe X. Voir § *« Application
+  du Principe X »* ci-dessous.
+
+---
+
+## Application du Principe X (ratifié 2026-05-06)
+
+L'amendement Charter du 06/05/2026 (*« Pas de fiction non-consentie »*) a
+ratifié le Principe X et redéfini la mécanique de mise en marché. Pivot canal,
+pas pivot produit.
+
+**Ce qui n'est plus autorisé :**
+- Cold mail nominatif vers humain identifié (la cible ne connaît pas le
+  projet avant de recevoir le mail).
+- Demande de connexion ou DM LinkedIn sous identité Marcus à un destinataire
+  ciblé.
+- Soumission de formulaire de contact sous identité Marcus à une entreprise
+  individuelle ou personne identifiée.
+- Toute proposition contractuelle adressée nominativement à une personne qui
+  n'a pas elle-même approché Marcus en sachant ce qu'il est.
+
+**Ce qui reste autorisé (canaux de fiction consentie) :**
+- **Canal A — Gumroad transparent.** Page produit publique avec section
+  *« À propos de ce projet »* qui déclare le dispositif (Marcus = personnage,
+  SoBaq = vendeur juridique, repo + Substack = sources). L'acheteur consent
+  à acheter en pleine connaissance.
+- **Canal B — Communautés ouvertes.** Posts signés Marcus Orlov dans Indie
+  Hackers, Reddit r/SaaS / r/microsaas, équivalents — avec présentation
+  explicite du dispositif en intro. Le lecteur consent à lire en
+  connaissance.
+- **Canal C — Substack comme funnel.** Le Substack est intrinsèquement le
+  canal de fiction consentie par excellence (le lecteur s'est abonné en
+  sachant qu'il lit un feuilleton documentaire). Pied de chapitre
+  standardisé avec lien Gumroad, page *About* enrichie.
+
+**Séquencement opérationnel S1-W3 → fin S1 :**
+- **Phase 1 (S1-W3 fin → S1-W4)** : armer Canal A. CGV libérale (✓ v0.3 livrée
+  08/05), page produit *« À propos »* (✓ draft v0.1 livré 08/05), politique de
+  confidentialité (à amorcer 09/05), adhésion médiateur CECMC (décision Baq +
+  capital), mission Baq groupée d'ouverture boutique. Brancher Canal C en
+  parallèle (pied de chapitre standardisé dès chapitre 3).
+- **Phase 2 (S1-W4 → S1-W5)** : tester Canal B. Choix communauté à arbitrer
+  en daily quand Phase 1 sera livrée. Premier post calibré, observation
+  7 jours sans relance.
+- **Phase 3 (S1-W5 → fin S1)** : itérer sur ce qui aura signalé.
+
+**Conséquences narratives.** Trois drafts outreach DPO Tier A archivés en
+`04-comms/outreach-archive/` (matière narrative préservée + apprentissage
+calibration B2B niche + trace de la décision). Mission M-20260502-002
+(envoi groupé) annulée par amendement, déplacée en `02-missions/cancelled/`.
 
 ---
 
@@ -146,13 +209,39 @@ Ce que Marcus refuse explicitement cette saison, même si tentant.
   - Un test à 199 € n'est **pas** lancé pré-invalidation. Il est réservé
     comme hypothèse post-pivot, si et seulement si un signal de
     willingness-to-pay au-dessus de 149 € émerge.
-- **Canaux d'acquisition non testés.** Deux hypothèses de départ : (a)
-  communautés fondateurs SaaS EU (Indie Hackers EU, Product Hunt makers,
-  Slack/Discord indie SaaS FR/EU) ; (b) DPO freelances en revente ou
-  affiliation.
+  - **Suspension du palier prix en v0.2 (2026-05-09).** À fin S1-W3, zéro
+    vente — mais aussi zéro boutique ouverte. Le palier prix n'a pas été
+    *testé*, il a été *empêché* par le pivot canal du 06/05. Le calendrier
+    de baisse à 99 € est suspendu et redémarrera à compter du jour
+    d'ouverture effective de la boutique Gumroad (cible S1-W4). Trois
+    semaines de prix d'entrée 149 € à compter de cette ouverture, puis
+    baisse à 99 € si aucune vente. La fenêtre d'invalidation S1 globale
+    (2026-06-01) reste calendairement fixe ; le sous-calendrier prix
+    flotte.
+- **Canaux d'acquisition non testés.** Hypothèses v0.2 (post-amendement
+  06/05) : (a) Gumroad transparent en canal direct ; (b) Substack comme
+  funnel narratif ; (c) communautés ouvertes (Indie Hackers EU, Reddit
+  r/SaaS / r/microsaas) avec déclaration explicite du dispositif. La
+  mécanique *« revente via DPO freelances »* est retirée de la thèse v0.2 —
+  elle exigerait un outreach nominatif que le Principe X interdit.
   *Mitigation* : produit d'abord, acquisition ensuite. Un artefact concret
   permet de tester les canaux avec quelque chose à montrer, pas avec une
   promesse.
+- **Horizon d'invalidation tendu — pivot canal en S1-W3.** Trois semaines
+  consacrées à la préparation interne (kit livré 25/04, packaging livré
+  02/05, CGV libérale 07/05-08/05, page À propos 08/05) pour zéro signal
+  externe. L'amendement Charter du 06/05 a fermé le canal cold outreach
+  à 20 jours d'invalidation, et la fenêtre se rétracte mécaniquement
+  d'un jour par jour. Aucune vente n'est encore arithmétiquement
+  improbable, mais elle exige désormais que la boutique Gumroad ouvre
+  en S1-W4 et qu'un canal Phase 2 (communautés) génère du trafic en
+  S1-W5. *Mitigation* : (a) accélérer la levée des verrous Phase 1
+  Canal A (politique de confidentialité, CECMC, mission Baq groupée)
+  pour ouverture boutique cible jeudi 14 ou vendredi 15 mai ; (b)
+  préparer en parallèle le scan + la calibration d'un premier post
+  Phase 2 ; (c) accepter que le scénario *« thèse invalidée par
+  absence de signal au 1er juin »* est désormais une issue plausible
+  prévue par le Charter, à traiter comme telle si elle se réalise.
 
 ---
 
@@ -168,6 +257,17 @@ Append-only. Every significant change in the thesis is dated and justified.
   lecture de son contrat Capgemini (mission M-20260417-001). Premier kit
   choisi : *GDPR Starter Kit — First B2B Customer*, v0 visé samedi
   2026-04-18 en weekend session.
+- **2026-05-09** — v0.2. Status : `defined` (canal pivot, no product change).
+  Thèse primaire reformulée canal-aware suite à l'amendement Charter du
+  06/05/2026 (*« Pas de fiction non-consentie »*, ratification du
+  Principe X) : Gumroad transparent + Substack funnel + communautés
+  ouvertes avec déclaration explicite, en remplacement de
+  *« revente via DPO freelances »*. Section *« Application du Principe X »*
+  ajoutée avec séquencement Phase 1-2-3. Anti-thèse étendue : pas de cold
+  outreach nominatif. Risque *« horizon d'invalidation tendu »* documenté.
+  Mention *« sans cold outreach »* dans la rubrique *« risques —
+  willingness to pay »* (palier prix inchangé : 149 € → 99 € à fin W3 si
+  zéro vente, palier déjà atteint dans la fenêtre).
 
 ---
 
@@ -223,3 +323,9 @@ is a signal.
 - **v0.1** — 2026-04-17. Thèse primaire formulée, alternatives documentées,
   anti-thèse consolidée avec garde-fous Baq, premier kit choisi pour
   production (GDPR Starter Kit — First B2B Customer).
+- **v0.2** — 2026-05-09. Reformulation canal-aware post-amendement Charter
+  06/05/2026 (Principe X — Fiction Consentie). Pivot canal, pas pivot
+  produit. Le kit, l'ICP, le prix, le positionnement et les success
+  criteria restent inchangés. Section *« Application du Principe X »*
+  ajoutée avec Phase 1-2-3. Anti-thèse étendue. Risque horizon
+  d'invalidation tendu documenté. Statut maintenu `defined`.
