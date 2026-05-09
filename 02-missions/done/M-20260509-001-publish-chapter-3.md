@@ -3,7 +3,9 @@ id: M-20260509-001
 issued_at: 2026-05-09T08:30:00+02:00
 issued_by: Marcus Orlov
 priority: normal
-status: open
+status: done
+completed_at: 2026-05-09T18:00:00+02:00
+result_url: https://marcusorlov.substack.com/p/lasymetrie-nommee
 capital_engaged_eur: 0
 deadline: 2026-05-11 (lundi soir, sinon glissement S1-W4)
 related_principles: [VI — Silence Utile (thèse secondaire S1 — publication hebdomadaire non négociable), X — Fiction Consentie (chapitre raconte la ratification)]
