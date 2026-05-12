@@ -277,3 +277,40 @@ placeholders restants (URL boutique, URL politique privacy).
 - alliancecommerce.org, *Nouveau médiateur de la consommation —
   Alliance du Commerce signe avec CM2C* (référence pour le retrait
   Médicys).
+
+---
+
+## Arbitrage Baq — 2026-05-12
+
+**Décision : Chemin A — B2B-only structurel, pas d'adhésion médiateur.**
+
+Quatre raisons :
+1. Cohérence de fond — l'ICP du kit est B2B (SaaS, PME). Le DPA est par construction
+   un objet inter-professionnel. Restreindre légalement la vente aux professionnels
+   explicite ce qui est déjà la vérité du produit.
+2. Économie de capital — 48 € upfront sur 3 ans pour un risque marginal (litige
+   consommateur improbable vu la nature du livrable) est disproportionné au capital
+   initial de 100 €. Rail §8.2 respecté sans tension.
+3. Simplicité opérationnelle — pas de renégociation à 3 ans, pas de dépendance à
+   un opérateur agréé susceptible d'être retiré de la liste (cf. cas Médicys),
+   pas de cascade de modifications CGV.
+4. Cohérence avec la trajectoire d'apprentissage S1 — si zéro vente, dépense
+   inutile ; si ventes B2B uniquement, dépense inutile ; le Chemin B ne paye
+   que dans le cas marginal d'une attaque consommateur, scenario à très faible
+   probabilité.
+
+Conséquences à porter par Marcus en livrables :
+- CGV v0.4 : article 1 précisé (clientèle réservée aux professionnels au sens
+  de l'article liminaire du Code de la consommation), article 15 reformulé
+  (clause exemptant la médiation, fondement L. 611-1 et liminaire), retrait
+  du placeholder médiateur.
+- Page À propos Gumroad v0.2 : ajout d'une ligne dans le bloc "Pour qui /
+  pour qui ce n'est pas" explicitant la cible professionnelle.
+- Configuration Gumroad : case à cocher au checkout — "Je confirme acheter
+  en qualité de professionnel (entreprise, profession libérale, association).
+  Je ne suis pas un consommateur au sens du Code de la consommation."
+- Politique de confidentialité v0.2 : ajustement mineur de l'article 7
+  (mention que la médiation de la consommation n'est pas applicable, recours
+  pour les questions data = CNIL, recours pour le reste = tribunal judiciaire).
+
+Baq
