@@ -1,13 +1,14 @@
 ---
 file: 05-products/legal/privacy-policy-fr.md
 purpose: Politique de confidentialité SoBaq publique (boutique Gumroad + page tierce hébergée).
-target: URL à arbitrer en S1-W4 (sous-page Substack ou hébergement statique) — page liée dans CGV article 13.
-status: v0.1, 2026-05-11 — squelette v0.0 (09/05) étoffé en document substantiel. À valider par Baq avant hébergement et liaison CGV.
-date: 2026-05-11
+target: URL à arbitrer en S1-W4 (sous-page Substack, GitHub Pages, ou sobaq.fr via OVH) — page liée dans CGV article 13.
+status: v0.2, 2026-05-13 — ajustement mineur post-cascade Chemin A (B2B-only). À valider par Baq avant hébergement et liaison CGV.
+date: 2026-05-13
 author: Marcus
 related:
-  - 05-products/legal/cgv-fr.md (article 13 — placeholder URL politique de confidentialité)
+  - 05-products/legal/cgv-fr.md (article 13 — placeholder URL politique de confidentialité ; v0.4 cascade Chemin A)
   - 04-comms/gumroad/about-page-fr.md (renvoi indirect via § Identification du Vendeur)
+  - 01-memory/decisions/2026-05-12-mediateur-cecmc.md (décision Baq — Chemin A B2B-only)
 references:
   - RGPD (UE 2016/679), articles 12 à 22 — informations et droits des personnes
   - Loi n° 78-17 du 6 janvier 1978 modifiée — Informatique et Libertés
@@ -19,14 +20,16 @@ references:
 
 # Politique de confidentialité — SoBaq
 
-> **Statut** : v0.1, 11 mai 2026. Première version substantielle issue
-> de l'amorce v0.0 du 09 mai 2026. Document à valider par Baq avant
-> hébergement et liaison depuis l'article 13 des CGV SoBaq.
-> Trois éléments d'identification opérationnelle dépendent encore
+> **Statut** : v0.2, 13 mai 2026. Ajustement mineur post-cascade
+> *« Chemin A — B2B-only structurel »* (décision Baq du 12/05/2026,
+> cf. `01-memory/decisions/2026-05-12-mediateur-cecmc.md`). Article 7
+> précisé sur les voies de recours en cohérence avec l'exemption
+> médiation consommation. Reste de la matière inchangée par rapport
+> à v0.1. Document à valider par Baq avant hébergement et liaison
+> depuis l'article 13 des CGV SoBaq.
+> Deux éléments d'identification opérationnelle dépendent encore
 > d'arbitrages en cours (URL d'hébergement de la présente page, URL
-> publique de la boutique Gumroad, médiateur de la consommation
-> CECMC) — repérés ci-dessous par la mention
-> `[À COMPLÉTER — …]`.
+> publique de la boutique Gumroad).
 
 ---
 
@@ -320,6 +323,24 @@ Commission nationale de l'informatique et des libertés :
 - **Téléphone** : 01 53 73 22 22
 - **Formulaire en ligne** : `cnil.fr/fr/plaintes`
 
+### 7.4 — Voies de recours — articulation avec le statut B2B de la vente
+
+La vente opérée par SoBaq est réservée aux Acheteurs Professionnels
+(article 3 des CGV SoBaq). Le **dispositif de médiation de la
+consommation** prévu aux articles L. 611-1 et suivants du Code de
+la consommation **n'est en conséquence pas applicable** aux
+relations contractuelles entre SoBaq et ses Acheteurs (cf. article
+15 des CGV SoBaq). Cette inapplicabilité est sans incidence sur les
+droits propres aux personnes concernées par un traitement de données
+décrits aux articles 7.1 à 7.3 ci-dessus, qui demeurent en toute
+hypothèse exerçables par voie de courriel à `contact@sobaq.fr` et,
+en dernier ressort, par réclamation devant la CNIL.
+
+Pour toute autre contestation relative à un traitement de données
+qui n'aurait pas trouvé d'issue par les voies décrites ci-dessus,
+la juridiction compétente est le tribunal judiciaire dans les
+conditions de droit commun.
+
 ---
 
 ## Article 8 — Cookies et traceurs
@@ -423,14 +444,18 @@ le point de contact unique est :
 ### Mentions restantes à compléter
 
 - **URL d'hébergement de la présente politique** : à arbitrer en
-  S1-W4 (sous-page Substack ou hébergement statique). L'URL retenue
-  remplacera le placeholder de l'article 13 des CGV SoBaq.
+  S1-W4 (sous-page Substack, GitHub Pages, ou sobaq.fr via OVH).
+  L'URL retenue remplacera le placeholder de l'article 13 des CGV
+  SoBaq.
 - **URL publique de la boutique Gumroad** : disponible à l'ouverture
   de la boutique, prévue jeudi 14 ou vendredi 15 mai 2026.
-- **Adhésion à un médiateur de la consommation** : décision capital
-  + choix parmi la liste CECMC, à arbitrer par Baq en S1-W4. La
-  mention afférente est portée par les CGV, pas par la présente
-  politique de confidentialité.
+
+### Mention retirée en v0.2
+
+- **Adhésion à un médiateur de la consommation** (placeholder
+  v0.1) : retirée. La décision Baq du 12/05/2026 *« Chemin A —
+  B2B-only structurel »* écarte structurellement le besoin
+  d'adhésion CECMC. Cf. article 7.4 ci-dessus.
 
 ---
 
@@ -444,3 +469,16 @@ le point de contact unique est :
   liaison depuis l'article 13 des CGV SoBaq. Trois éléments
   d'identification opérationnelle restent à compléter (URL
   d'hébergement, URL boutique, médiateur).
+- **v0.2** — 13 mai 2026. Ajustement post-cascade
+  *« Chemin A — B2B-only structurel »* (décision Baq du 12/05/2026).
+  Modifications :
+  - **Article 7** : ajout d'une sous-section 7.4 *« Voies de recours
+    — articulation avec le statut B2B de la vente »* précisant
+    l'inapplicabilité du dispositif médiation consommation (cf. CGV
+    art. 15) et l'articulation avec les droits propres aux personnes
+    concernées (CNIL, tribunal judiciaire pour le résiduel).
+  - **Annexe** : placeholder *« médiateur CECMC »* retiré ; section
+    *« Mention retirée en v0.2 »* ajoutée.
+  Le reste de la matière (articles 1 à 6, 8 à 11, préambule,
+  mentions structurelles) est inchangé sur le fond. Document à
+  valider par Baq avant hébergement et liaison.

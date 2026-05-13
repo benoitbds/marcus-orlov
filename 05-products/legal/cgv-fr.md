@@ -1,15 +1,24 @@
 # Conditions Générales de Vente — SoBaq
 
-> **Statut** : v0.3, 2026-05-08. Mention « (Entrepreneur individuel — EI) »
-> ajoutée après le nom du titulaire (article 1 et annexe), conformément au
-> décret n° 2022-725 du 28 avril 2022 relatif à la dénomination des
-> entrepreneurs individuels — obligation applicable depuis le 15 mai 2022
-> à tout document professionnel. Reste de la matière inchangée. Trois
-> placeholders subsistent (URL boutique Gumroad, URL politique de
-> confidentialité, médiateur de la consommation) — ils dépendent
-> d'arbitrages encore à mener. Document à valider par Baq avant
-> publication. Aucune mise en ligne avant remplissage des placeholders
-> restants.
+> **Statut** : v0.4, 2026-05-13. **Pivot structurel — B2B-only.** Cascade
+> de la décision Baq du 12/05/2026 *« médiateur CECMC — Chemin A retenu »*
+> (cf. `01-memory/decisions/2026-05-12-mediateur-cecmc.md`). La vente
+> est désormais **réservée aux Acheteurs Professionnels** au sens de
+> l'article liminaire du Code de la consommation. Les provisions du droit
+> de la consommation (rétractation, garantie légale, juridiction
+> Consommateur) sont **maintenues comme filet résiduel** — le droit de la
+> consommation est d'ordre public et ne peut être écarté par la seule
+> case à cocher. La structure défensive repose sur trois éléments
+> conjoints : (i) clause de réservation à l'article 3, (ii) case à
+> cocher obligatoire au checkout Gumroad attestant la qualité
+> professionnelle, (iii) responsabilité de l'Acheteur en cas de fausse
+> déclaration. Le placeholder médiateur de l'article 15 est **retiré** :
+> SoBaq n'adhère pas à un médiateur agréé CECMC, l'obligation ne
+> s'appliquant pas aux litiges entre professionnels (Code conso art.
+> L. 611-1, art. liminaire). Deux placeholders subsistent (URL boutique
+> Gumroad, URL politique de confidentialité). Document à valider par Baq
+> avant publication. Aucune mise en ligne avant remplissage des
+> placeholders restants.
 
 ---
 
@@ -93,26 +102,66 @@ indiquée :
 
 ---
 
-## Article 3 — Champ d'application — qualité de l'Acheteur
+## Article 3 — Champ d'application — réservation aux Acheteurs Professionnels
 
-Les Produits sont conçus pour un usage **professionnel** par des
-entreprises, notamment des petites et moyennes entreprises éditrices
-de logiciels en mode SaaS établies dans l'Union européenne. À ce
-titre, l'Acheteur est dans la grande majorité des cas un
-Professionnel.
+### 3.1 Principe — vente réservée aux Professionnels
 
-Toutefois, le Site n'opère **aucun filtrage** au stade de la
-Commande. Toute personne physique majeure peut passer Commande. Si
-l'Acheteur a la qualité de Consommateur, il bénéficie de l'ensemble
-des dispositions impératives du Code de la consommation, dont les
-articles L. 221-5 et suivants (information précontractuelle,
-rétractation, garanties), sous réserve des exceptions prévues à
-l'article 9 des présentes CGV.
+Les Produits sont conçus pour un usage **strictement professionnel**
+par des entreprises, notamment des petites et moyennes entreprises
+éditrices de logiciels en mode SaaS établies dans l'Union européenne.
+La vente est en conséquence **réservée aux Acheteurs ayant la
+qualité de Professionnel** au sens de l'article liminaire du Code
+de la consommation.
 
-L'Acheteur déclare au moment de la Commande s'il agit en qualité de
-Consommateur ou de Professionnel. Cette déclaration ne fait pas
-obstacle à l'application du droit de la consommation lorsque la
-qualité réelle de l'Acheteur le justifie.
+Le Vendeur **n'entend pas contracter avec un Consommateur** au sens
+du même article liminaire. La présente réservation se justifie par
+la nature même des Produits, dont l'instrument central — un
+*Data Processing Agreement* (DPA) controller-to-processor — est par
+construction un instrument juridique inter-professionnel sans
+application B2C.
+
+### 3.2 Mécanisme de la réservation
+
+La qualité professionnelle de l'Acheteur est attestée à la
+Commande par les éléments cumulatifs suivants :
+
+1. **Acceptation expresse des présentes CGV** par cochage d'une
+   case prévue à cet effet, emportant connaissance de la clause de
+   réservation du présent article ;
+2. **Case à cocher obligatoire** au checkout Gumroad portant la
+   mention : *« Je confirme acheter en qualité de Professionnel
+   (entreprise, profession libérale, association, organisme public).
+   Je ne suis pas un Consommateur au sens de l'article liminaire du
+   Code de la consommation. »* ;
+3. **Renseignement facultatif** d'un numéro d'identification
+   professionnelle (SIRET français, numéro de TVA intracommunautaire
+   d'un autre État membre, équivalent étranger) destiné à figurer
+   sur la facture émise.
+
+À défaut d'acceptation cumulative des deux premiers éléments, la
+Commande **ne peut être finalisée**.
+
+### 3.3 Fausse déclaration
+
+Toute fausse déclaration de qualité par l'Acheteur engage sa
+responsabilité. Le Vendeur se réserve le droit, en cas de fausse
+déclaration manifeste portée à sa connaissance, de résilier la
+Commande de plein droit et de procéder à toute action utile pour
+faire constater la fausse déclaration.
+
+### 3.4 Filet résiduel — provisions du droit de la consommation
+
+Les présentes CGV maintiennent les provisions du droit de la
+consommation (rétractation, garanties, juridiction du Consommateur,
+règlement extra-judiciaire des litiges) comme **filet résiduel**.
+Ces provisions ont vocation à s'appliquer dans le seul cas
+résiduel où, malgré la clause de réservation du présent article,
+un Consommateur parviendrait à conclure une Commande — le droit
+de la consommation étant d'ordre public et ne pouvant être écarté
+par les seules stipulations contractuelles. Le maintien de ces
+provisions n'emporte ni renonciation à la clause de réservation
+du présent article, ni reconnaissance d'un droit de Consommateur
+à passer Commande.
 
 ---
 
@@ -151,13 +200,17 @@ processus comprend les étapes suivantes :
 
 1. Sélection du Produit ;
 2. Saisie des coordonnées de facturation par l'Acheteur ;
-3. Acceptation expresse des présentes CGV par cochage d'une case
+3. **Attestation de qualité professionnelle** par cochage de la
+   case prévue à cet effet (article 3.2 des présentes) ;
+4. **Acceptation expresse des présentes CGV** par cochage d'une case
    prévue à cet effet ;
-4. Pour le Consommateur : acceptation expresse de la perte du
-   droit de rétractation (voir article 9 des présentes) ;
-5. Paiement via le prestataire choisi (voir article 7) ;
-6. Confirmation de la Commande par courriel ;
-7. Mise à disposition du Produit en téléchargement immédiat.
+5. À titre résiduel, dans le cas mentionné à l'article 3.4 où un
+   Consommateur parviendrait à conclure une Commande : acceptation
+   expresse de la perte du droit de rétractation (voir article 9
+   des présentes) ;
+6. Paiement via le prestataire choisi (voir article 7) ;
+7. Confirmation de la Commande par courriel ;
+8. Mise à disposition du Produit en téléchargement immédiat.
 
 ### 5.2 Acceptation des CGV
 
@@ -260,6 +313,10 @@ solution de livraison alternative est acceptée par les deux parties.
 
 ## Article 9 — Droit de rétractation et exception applicable au
 contenu numérique
+
+> Le présent article s'applique uniquement dans le cas résiduel
+> visé à l'article 3.4. Il est sans objet dans la situation
+> attendue où l'Acheteur est un Professionnel (cf. article 9.3).
 
 ### 9.1 Principe (Consommateur)
 
@@ -491,23 +548,42 @@ long, qui sera alors notifié à l'Acheteur.
 
 ---
 
-## Article 15 — Médiation de la consommation
+## Article 15 — Médiation de la consommation — exemption B2B
 
-Conformément aux articles L. 612-1 et suivants du Code de la
-consommation, le Consommateur peut, en cas de litige avec le
-Vendeur et après avoir tenté en vain de le résoudre directement
-avec lui, recourir gratuitement à un médiateur de la consommation.
+### 15.1 Inapplicabilité — vente réservée aux Professionnels
 
-- **Médiateur compétent** : `[À COMPLÉTER — médiateur retenu par
-  SoBaq, à choisir parmi la liste tenue par la Commission
-  d'évaluation et de contrôle de la médiation de la consommation
-  (CECMC)]`
-- **Coordonnées** : `[À COMPLÉTER — adresse postale, courriel, URL]`
+Le dispositif de médiation de la consommation prévu aux articles
+L. 611-1 et suivants du Code de la consommation **n'est pas
+applicable** aux relations contractuelles régies par les présentes
+CGV. La vente est réservée aux Acheteurs Professionnels (article 3
+des présentes), et l'obligation d'adhésion à un médiateur agréé
+mentionnée à l'article L. 612-1 du Code de la consommation ne vise
+que les litiges entre un Consommateur et un Professionnel (Code
+conso, article liminaire ; article L. 611-1).
 
-Conformément au règlement (UE) n° 524/2013, le Consommateur
-résidant dans l'Union européenne peut également recourir à la
-plateforme européenne de **règlement en ligne des litiges (RLL)**,
-accessible à l'URL : `https://ec.europa.eu/consumers/odr`.
+En conséquence, SoBaq **n'a pas adhéré à un médiateur agréé** par
+la Commission d'évaluation et de contrôle de la médiation de la
+consommation (CECMC), et n'en désigne pas dans les présentes CGV.
+
+### 15.2 Filet résiduel — Consommateur
+
+Dans le cas résiduel visé à l'article 3.4 où un Consommateur
+parviendrait à conclure une Commande, le présent article 15 ne
+saurait priver ce Consommateur des dispositions impératives du
+droit de la consommation. Le Consommateur peut alors, après avoir
+tenté en vain une résolution amiable directe (article 14), recourir
+à la plateforme européenne de **règlement en ligne des litiges
+(RLL)** prévue par le règlement (UE) n° 524/2013, accessible à
+l'URL : `https://ec.europa.eu/consumers/odr`. Il peut également
+saisir la juridiction compétente dans les conditions prévues à
+l'article 16.2 ci-après.
+
+### 15.3 Litiges entre Professionnels
+
+Les litiges entre Professionnels relevant des présentes CGV sont
+soumis aux règles de droit commun. Une résolution amiable directe
+est privilégiée (article 14). À défaut, la juridiction compétente
+est désignée à l'article 16.2.
 
 ---
 
@@ -595,11 +671,16 @@ traduction, seule la version française fait foi.
 | 1 | Courriel de contact | contact@sobaq.fr |
 | 16.2 | Tribunal compétent (B2B) | tribunal judiciaire du siège (substitution du tribunal de commerce) |
 
-### Mentions retirées en v0.2
+### Mentions retirées en v0.2 puis en v0.4
 
-- **RCS Nantes** : retiré. Le Vendeur exerce une activité libérale
-  non commerciale et n'est pas inscrit au RCS. La précision figure
-  désormais à l'article 1 in fine.
+- **RCS Nantes** (v0.2) : retiré. Le Vendeur exerce une activité
+  libérale non commerciale et n'est pas inscrit au RCS. La précision
+  figure désormais à l'article 1 in fine.
+- **Médiateur agréé CECMC** (v0.4) : placeholder retiré. La vente
+  étant réservée aux Acheteurs Professionnels (article 3), le
+  dispositif de médiation de la consommation n'est pas applicable
+  (Code conso, art. L. 611-1 et liminaire). Cf. décision Baq du
+  12/05/2026 — *« médiateur CECMC — Chemin A retenu »*.
 
 ### Mentions restantes à compléter
 
@@ -609,8 +690,7 @@ arbitrage encore à mener.
 | Article | Mention | Décision attendue |
 |---|---|---|
 | 2 | URL boutique | URL publique Gumroad SoBaq, après ouverture de la boutique |
-| 13 | URL politique de confidentialité | hébergement à choisir (page Gumroad ou page sobaq.fr) |
-| 15 | Médiateur de la consommation | adhésion à choisir parmi la liste CECMC |
+| 13 | URL politique de confidentialité | hébergement à choisir (sous-page Substack, GitHub Pages, sobaq.fr via OVH) |
 
 ---
 
@@ -647,3 +727,45 @@ arbitrage encore à mener.
   sur l'ensemble des documents et correspondances à usage
   professionnel. Reste de la matière inchangée. Apprentissage du
   bloc `learnings.md` 2026-05-07 (matin) intégré.
+- **v0.4** — 2026-05-13. **Pivot structurel — modèle B2B-only**.
+  Cascade de la décision Baq du 12/05/2026
+  (cf. `01-memory/decisions/2026-05-12-mediateur-cecmc.md` —
+  *« médiateur CECMC — Chemin A retenu »*). Modifications structurelles
+  qui changent le modèle juridique de l'offre, pas seulement le
+  wording :
+  - **Article 3** entièrement réécrit en *« Champ d'application —
+    réservation aux Acheteurs Professionnels »*. Quatre sous-articles :
+    (3.1) principe de réservation, (3.2) mécanisme cumulatif
+    d'attestation au checkout (case à cocher CGV + case à cocher
+    qualité professionnelle + SIRET facultatif), (3.3) responsabilité
+    de l'Acheteur en cas de fausse déclaration, (3.4) maintien des
+    provisions Consommateur comme filet résiduel (le droit de la
+    consommation est d'ordre public et ne peut être écarté par la
+    seule clause).
+  - **Article 5.1** modifié : ajout de l'étape *« attestation de
+    qualité professionnelle »* (cochage de la case prévue à
+    l'article 3.2) avant l'acceptation des CGV. Étape rétractation
+    Consommateur explicitement marquée résiduelle.
+  - **Article 9** : note d'introduction précisant l'application
+    résiduelle (cas de l'article 3.4 uniquement). Contenu inchangé.
+  - **Article 15** entièrement réécrit en *« Médiation de la
+    consommation — exemption B2B »*. Trois sous-articles : (15.1)
+    inapplicabilité fondée sur Code conso art. L. 611-1 et liminaire,
+    déclaration explicite de non-adhésion CECMC ; (15.2) filet
+    résiduel pour le cas Consommateur (plateforme RLL maintenue,
+    juridiction compétente article 16.2) ; (15.3) litiges entre
+    Professionnels relevant du droit commun.
+  - **Annexe** : mentions retirées étendues au médiateur CECMC ;
+    placeholders restants réduits à deux (URL boutique, URL
+    politique de confidentialité). Ligne *« hébergement à choisir »*
+    élargie aux trois options identifiées (sous-page Substack,
+    GitHub Pages, sobaq.fr via OVH).
+
+  La structure défensive du B2B-only repose sur trois éléments
+  conjoints non substituables — clause CGV + case à cocher Gumroad
+  + responsabilité fausse déclaration. Le mécanisme Gumroad de la
+  case à cocher au checkout est documenté
+  ([Gumroad Help — Custom checkout fields](https://help.gumroad.com/article/59-adding-custom-fields-to-a-checkout-form),
+  vérifié 13/05). Les autres articles (1, 2, 4, 6, 7, 8, 10, 11, 12,
+  13, 14, 16, 17, 18) restent inchangés sur le fond ; les renvois
+  internes restent valides.

@@ -2,10 +2,12 @@
 file: 04-comms/gumroad/about-page-fr.md
 purpose: Page produit Gumroad — description publique du kit GDPR Starter Kit FR.
 target: page produit Gumroad (champ description), markdown borné aux contraintes Gumroad (pas de HTML exotique, pas de tableaux complexes).
-status: draft v0.1 — à valider par Baq avant publication
-date: 2026-05-08
+status: draft v0.2 — à valider par Baq avant publication
+date: 2026-05-13
 author: Marcus
-related: 01-memory/charter-amendments/2026-05-06-no-non-consensual-fiction.md (Principe X — Fiction Consentie)
+related:
+  - 01-memory/charter-amendments/2026-05-06-no-non-consensual-fiction.md (Principe X — Fiction Consentie)
+  - 01-memory/decisions/2026-05-12-mediateur-cecmc.md (décision Baq — Chemin A B2B-only)
 ---
 
 # Kit RGPD — Premier client B2B (FR)
@@ -49,6 +51,12 @@ Format Markdown, ouvrable dans n'importe quel éditeur. Conversion `.docx` ou
 
 ## Pour qui ce n'est pas
 
+- **Particuliers / consommateurs.** La vente est réservée aux
+  Acheteurs Professionnels (entreprise, profession libérale,
+  association, organisme public). Une case à cocher au checkout
+  vous demande de confirmer cette qualité — l'instrument central
+  du kit (DPA controller-to-processor) n'a pas d'application en
+  dehors d'une relation entre professionnels.
 - Audit ISO 27001, SOC 2 (autre niveau de formalisme — pas le bon outil).
 - Activité couverte par des règles sectorielles spécifiques (santé,
   banque, jeux d'argent — consultez un avocat sectoriel).

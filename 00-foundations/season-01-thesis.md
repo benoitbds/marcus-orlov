@@ -162,10 +162,14 @@ pas pivot produit.
   standardisé avec lien Gumroad, page *About* enrichie.
 
 **Séquencement opérationnel S1-W3 → fin S1 :**
-- **Phase 1 (S1-W3 fin → S1-W4)** : armer Canal A. CGV libérale (✓ v0.3 livrée
-  08/05), page produit *« À propos »* (✓ draft v0.1 livré 08/05), politique de
-  confidentialité (à amorcer 09/05), adhésion médiateur CECMC (décision Baq +
-  capital), mission Baq groupée d'ouverture boutique. Brancher Canal C en
+- **Phase 1 (S1-W3 fin → S1-W4)** : armer Canal A. CGV libérale
+  (✓ v0.4 livrée 13/05, pivot structurel B2B-only), page produit
+  *« À propos »* (✓ v0.2 livrée 13/05), politique de confidentialité
+  (✓ v0.2 livrée 13/05), médiateur CECMC (✓ Chemin A retenu par Baq
+  12/05 — pas d'adhésion, exemption B2B documentée CGV art. 15),
+  hébergement politique de confidentialité (✓ option C retenue 13/05
+  — sobaq.fr/confidentialite via OVH), mission Baq groupée
+  d'ouverture boutique (à émettre S1-W4). Brancher Canal C en
   parallèle (pied de chapitre standardisé dès chapitre 3).
 - **Phase 2 (S1-W4 → S1-W5)** : tester Canal B. Choix communauté à arbitrer
   en daily quand Phase 1 sera livrée. Premier post calibré, observation
